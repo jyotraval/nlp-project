@@ -1,0 +1,1101 @@
+mode,method,split,query,answers,rank
+gloss,tfidf,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss,tfidf,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss,tfidf,dev,someone who loves books,bibliophile|bookworm,1
+gloss,tfidf,dev,the sweet sticky food bees make,honey,4
+gloss,tfidf,dev,an expert who predicts the future from the stars,astrologer,13
+gloss,tfidf,dev,a word that means the opposite,antonym,6
+gloss,tfidf,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss,tfidf,dev,a book that explains what words mean,dictionary|lexicon,62
+gloss,tfidf,dev,a baby dog,pup|puppy|whelp,5
+gloss,tfidf,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss,tfidf,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,98
+gloss,tfidf,dev,a person who paints pictures,artist|painter,25
+gloss,tfidf,dev,good at doing lots of different things,adaptable|versatile,
+gloss,tfidf,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,27
+gloss,tfidf,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,1
+gloss,tfidf,dev,money or help given freely to those in need,alms|charity|donation,
+gloss,tfidf,dev,the scientific study of the mind and behaviour,psychology,
+gloss,tfidf,dev,a journey to a holy place,hajj|pilgrimage,2
+gloss,tfidf,dev,an official count of everyone living in a country,census,78
+gloss,tfidf,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss,tfidf,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,38
+gloss,tfidf,dev,the person who commands a ship,captain|master|skipper,11
+gloss,tfidf,dev,someone who travels to a sacred place,hajji|pilgrim,37
+gloss,tfidf,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
+gloss,tfidf,dev,sad because you miss your home,homesick|homesickness|nostalgia,36
+gloss,tfidf,dev,fear of foreigners,xenophobia,1
+gloss,tfidf,dev,an animal that only eats plants,herbivore,76
+gloss,tfidf,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
+gloss,tfidf,dev,someone who bakes bread for a living,baker,1
+gloss,tfidf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,9
+gloss,tfidf,dev,a book full of maps,atlas,1
+gloss,tfidf,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss,tfidf,dev,a place where bees are kept,apiary|beehive|hive,11
+gloss,tfidf,dev,the dot at the end of a sentence,period,37
+gloss,tfidf,dev,a strong urge to travel and see the world,wanderlust,34
+gloss,tfidf,dev,a young cow,calf|heifer,1
+gloss,tfidf,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss,tfidf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,37
+gloss,tfidf,dev,a mountain that throws out hot molten rock,volcano,94
+gloss,tfidf,dev,the study of birds,ornithology,2
+gloss,tfidf,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss,tfidf,dev,the study of insects,entomology,4
+gloss,tfidf,dev,a piece of land with water all around,island|isle,67
+gloss,tfidf,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,69
+gloss,tfidf,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,8
+gloss,tfidf,dev,someone who always expects the worst,cynic|pessimist,1
+gloss,tfidf,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss,tfidf,dev,to leave someone or something for good,abandon|desert|forsake|leave,2
+gloss,tfidf,dev,an animal that hunts and eats other animals,carnivore|predator,9
+gloss,tfidf,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,
+gloss,tfidf,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,60
+gloss,tfidf,dev,an instrument for viewing faraway stars,telescope,
+gloss,tfidf,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,28
+gloss,tfidf,dev,a scientist who studies stars and planets,astronomer|astrophysicist,
+gloss,tfidf,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,7
+gloss,tfidf,test,a person who eats no meat,vegetarian,2
+gloss,tfidf,test,to talk in a very soft voice,murmur|mutter|whisper,2
+gloss,tfidf,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss,tfidf,test,the front end of a boat,bow|prow|stem,
+gloss,tfidf,test,a person who cannot sleep at night,insomniac,1
+gloss,tfidf,test,soft white flakes falling from the sky in winter,snow|snowflake,63
+gloss,tfidf,test,a word that means the same as another,synonym,
+gloss,tfidf,test,a sudden short burst of wind,blast|gust|puff|squall,21
+gloss,tfidf,test,a green spot with water in the middle of a desert,oasis,26
+gloss,tfidf,test,a narrow track through the woods,footpath|path|track|trail,20
+gloss,tfidf,test,a large shed where aircraft are stored,hangar,4
+gloss,tfidf,test,a vessel that travels underwater,sub|submarine,
+gloss,tfidf,test,you cannot see through it,opaque,
+gloss,tfidf,test,a sharp pain in the chest caused by the heart,angina,3
+gloss,tfidf,test,a bird that hunts at night,owl,
+gloss,tfidf,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss,tfidf,test,a device for measuring how hot something is,thermometer,11
+gloss,tfidf,test,someone who always expects good things,optimist,
+gloss,tfidf,test,a huge dry sandy area with hardly any rain,desert,
+gloss,tfidf,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,14
+gloss,tfidf,test,a person who fixes leaking taps and pipes,plumber,
+gloss,tfidf,test,fear of heights,acrophobia,1
+gloss,tfidf,test,a person who flies airplanes,airman|aviator|flier|pilot,7
+gloss,tfidf,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss,tfidf,test,a document that says who gets your belongings after you die,testament|will,61
+gloss,tfidf,test,an unmarried man,bachelor,
+gloss,tfidf,test,a sport where two people fight with thin swords,fencing,12
+gloss,tfidf,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
+gloss,tfidf,test,government by the people,democracy,34
+gloss,tfidf,test,a feeling of great fear,dread|fright|horror|panic|terror,12
+gloss,tfidf,test,someone who takes pictures with a camera as a job,cameraman|photographer,41
+gloss,tfidf,test,to keep trying even when it is hard,persevere|persist,
+gloss,tfidf,test,a baby cat,kitten|kitty,17
+gloss,tfidf,test,a short funny story,anecdote|gag|jest|joke,19
+gloss,tfidf,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss,tfidf,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,95
+gloss,tfidf,test,to run away secretly to marry,elope,1
+gloss,tfidf,test,a place where books are lent out,library,55
+gloss,tfidf,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss,tfidf,test,a wise and respected teacher,guru|master|mentor|sage,36
+gloss,tfidf,test,a slow reptile with a hard shell,tortoise|turtle,11
+gloss,tfidf,test,a big group of fish swimming together,school|shoal,1
+gloss,tfidf,test,someone who writes books,author|novelist|writer,22
+gloss,tfidf,test,a very hard clear precious gemstone,diamond,
+gloss,tfidf,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss,tfidf,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss,tfidf,test,someone who cuts hair,barber|hairdresser,8
+gloss,tfidf,test,an instrument for viewing very tiny things,microscope,
+gloss,tfidf,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,2
+gloss,tfidf,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss,tfidf,test,to look at something very quickly,glance|glimpse|peek|peep,52
+gloss,tfidf,test,so hungry you could eat anything,famished|ravenous|starved|starving,4
+gloss,tfidf,test,fear of being trapped in small spaces,claustrophobia,18
+gloss,tfidf,test,a word formed from the first letters of a phrase,acronym,2
+gloss,tfidf,test,the belief that there is no god,atheism|disbelief,1
+gloss,glove_avg,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss,glove_avg,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss,glove_avg,dev,someone who loves books,bibliophile|bookworm,3
+gloss,glove_avg,dev,the sweet sticky food bees make,honey,3
+gloss,glove_avg,dev,an expert who predicts the future from the stars,astrologer,32
+gloss,glove_avg,dev,a word that means the opposite,antonym,83
+gloss,glove_avg,dev,money paid monthly to someone who has stopped working,annuity|pension,56
+gloss,glove_avg,dev,a book that explains what words mean,dictionary|lexicon,
+gloss,glove_avg,dev,a baby dog,pup|puppy|whelp,1
+gloss,glove_avg,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss,glove_avg,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,5
+gloss,glove_avg,dev,a person who paints pictures,artist|painter,71
+gloss,glove_avg,dev,good at doing lots of different things,adaptable|versatile,
+gloss,glove_avg,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
+gloss,glove_avg,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,19
+gloss,glove_avg,dev,money or help given freely to those in need,alms|charity|donation,
+gloss,glove_avg,dev,the scientific study of the mind and behaviour,psychology,
+gloss,glove_avg,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss,glove_avg,dev,an official count of everyone living in a country,census,
+gloss,glove_avg,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss,glove_avg,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,9
+gloss,glove_avg,dev,the person who commands a ship,captain|master|skipper,2
+gloss,glove_avg,dev,someone who travels to a sacred place,hajji|pilgrim,6
+gloss,glove_avg,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,4
+gloss,glove_avg,dev,sad because you miss your home,homesick|homesickness|nostalgia,79
+gloss,glove_avg,dev,fear of foreigners,xenophobia,1
+gloss,glove_avg,dev,an animal that only eats plants,herbivore,7
+gloss,glove_avg,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
+gloss,glove_avg,dev,someone who bakes bread for a living,baker,2
+gloss,glove_avg,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,76
+gloss,glove_avg,dev,a book full of maps,atlas,1
+gloss,glove_avg,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss,glove_avg,dev,a place where bees are kept,apiary|beehive|hive,3
+gloss,glove_avg,dev,the dot at the end of a sentence,period,3
+gloss,glove_avg,dev,a strong urge to travel and see the world,wanderlust,
+gloss,glove_avg,dev,a young cow,calf|heifer,1
+gloss,glove_avg,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss,glove_avg,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,6
+gloss,glove_avg,dev,a mountain that throws out hot molten rock,volcano,
+gloss,glove_avg,dev,the study of birds,ornithology,4
+gloss,glove_avg,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss,glove_avg,dev,the study of insects,entomology,4
+gloss,glove_avg,dev,a piece of land with water all around,island|isle,51
+gloss,glove_avg,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss,glove_avg,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,45
+gloss,glove_avg,dev,someone who always expects the worst,cynic|pessimist,1
+gloss,glove_avg,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss,glove_avg,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss,glove_avg,dev,an animal that hunts and eats other animals,carnivore|predator,8
+gloss,glove_avg,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,6
+gloss,glove_avg,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss,glove_avg,dev,an instrument for viewing faraway stars,telescope,51
+gloss,glove_avg,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,6
+gloss,glove_avg,dev,a scientist who studies stars and planets,astronomer|astrophysicist,11
+gloss,glove_avg,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,25
+gloss,glove_avg,test,a person who eats no meat,vegetarian,26
+gloss,glove_avg,test,to talk in a very soft voice,murmur|mutter|whisper,3
+gloss,glove_avg,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss,glove_avg,test,the front end of a boat,bow|prow|stem,
+gloss,glove_avg,test,a person who cannot sleep at night,insomniac,1
+gloss,glove_avg,test,soft white flakes falling from the sky in winter,snow|snowflake,4
+gloss,glove_avg,test,a word that means the same as another,synonym,97
+gloss,glove_avg,test,a sudden short burst of wind,blast|gust|puff|squall,62
+gloss,glove_avg,test,a green spot with water in the middle of a desert,oasis,10
+gloss,glove_avg,test,a narrow track through the woods,footpath|path|track|trail,
+gloss,glove_avg,test,a large shed where aircraft are stored,hangar,2
+gloss,glove_avg,test,a vessel that travels underwater,sub|submarine,
+gloss,glove_avg,test,you cannot see through it,opaque,
+gloss,glove_avg,test,a sharp pain in the chest caused by the heart,angina,6
+gloss,glove_avg,test,a bird that hunts at night,owl,
+gloss,glove_avg,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss,glove_avg,test,a device for measuring how hot something is,thermometer,30
+gloss,glove_avg,test,someone who always expects good things,optimist,
+gloss,glove_avg,test,a huge dry sandy area with hardly any rain,desert,23
+gloss,glove_avg,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,24
+gloss,glove_avg,test,a person who fixes leaking taps and pipes,plumber,
+gloss,glove_avg,test,fear of heights,acrophobia,1
+gloss,glove_avg,test,a person who flies airplanes,airman|aviator|flier|pilot,46
+gloss,glove_avg,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss,glove_avg,test,a document that says who gets your belongings after you die,testament|will,23
+gloss,glove_avg,test,an unmarried man,bachelor,68
+gloss,glove_avg,test,a sport where two people fight with thin swords,fencing,17
+gloss,glove_avg,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
+gloss,glove_avg,test,government by the people,democracy,37
+gloss,glove_avg,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss,glove_avg,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss,glove_avg,test,to keep trying even when it is hard,persevere|persist,
+gloss,glove_avg,test,a baby cat,kitten|kitty,15
+gloss,glove_avg,test,a short funny story,anecdote|gag|jest|joke,70
+gloss,glove_avg,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss,glove_avg,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss,glove_avg,test,to run away secretly to marry,elope,1
+gloss,glove_avg,test,a place where books are lent out,library,4
+gloss,glove_avg,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,44
+gloss,glove_avg,test,a wise and respected teacher,guru|master|mentor|sage,14
+gloss,glove_avg,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss,glove_avg,test,a big group of fish swimming together,school|shoal,1
+gloss,glove_avg,test,someone who writes books,author|novelist|writer,1
+gloss,glove_avg,test,a very hard clear precious gemstone,diamond,4
+gloss,glove_avg,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss,glove_avg,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss,glove_avg,test,someone who cuts hair,barber|hairdresser,4
+gloss,glove_avg,test,an instrument for viewing very tiny things,microscope,
+gloss,glove_avg,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,2
+gloss,glove_avg,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss,glove_avg,test,to look at something very quickly,glance|glimpse|peek|peep,42
+gloss,glove_avg,test,so hungry you could eat anything,famished|ravenous|starved|starving,59
+gloss,glove_avg,test,fear of being trapped in small spaces,claustrophobia,54
+gloss,glove_avg,test,a word formed from the first letters of a phrase,acronym,2
+gloss,glove_avg,test,the belief that there is no god,atheism|disbelief,1
+gloss,glove_idf,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss,glove_idf,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss,glove_idf,dev,someone who loves books,bibliophile|bookworm,4
+gloss,glove_idf,dev,the sweet sticky food bees make,honey,1
+gloss,glove_idf,dev,an expert who predicts the future from the stars,astrologer,38
+gloss,glove_idf,dev,a word that means the opposite,antonym,7
+gloss,glove_idf,dev,money paid monthly to someone who has stopped working,annuity|pension,73
+gloss,glove_idf,dev,a book that explains what words mean,dictionary|lexicon,
+gloss,glove_idf,dev,a baby dog,pup|puppy|whelp,1
+gloss,glove_idf,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss,glove_idf,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,8
+gloss,glove_idf,dev,a person who paints pictures,artist|painter,52
+gloss,glove_idf,dev,good at doing lots of different things,adaptable|versatile,
+gloss,glove_idf,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
+gloss,glove_idf,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,1
+gloss,glove_idf,dev,money or help given freely to those in need,alms|charity|donation,
+gloss,glove_idf,dev,the scientific study of the mind and behaviour,psychology,
+gloss,glove_idf,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss,glove_idf,dev,an official count of everyone living in a country,census,
+gloss,glove_idf,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss,glove_idf,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,3
+gloss,glove_idf,dev,the person who commands a ship,captain|master|skipper,1
+gloss,glove_idf,dev,someone who travels to a sacred place,hajji|pilgrim,9
+gloss,glove_idf,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,14
+gloss,glove_idf,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss,glove_idf,dev,fear of foreigners,xenophobia,1
+gloss,glove_idf,dev,an animal that only eats plants,herbivore,9
+gloss,glove_idf,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
+gloss,glove_idf,dev,someone who bakes bread for a living,baker,2
+gloss,glove_idf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,
+gloss,glove_idf,dev,a book full of maps,atlas,1
+gloss,glove_idf,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss,glove_idf,dev,a place where bees are kept,apiary|beehive|hive,1
+gloss,glove_idf,dev,the dot at the end of a sentence,period,53
+gloss,glove_idf,dev,a strong urge to travel and see the world,wanderlust,
+gloss,glove_idf,dev,a young cow,calf|heifer,1
+gloss,glove_idf,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss,glove_idf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,12
+gloss,glove_idf,dev,a mountain that throws out hot molten rock,volcano,
+gloss,glove_idf,dev,the study of birds,ornithology,13
+gloss,glove_idf,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss,glove_idf,dev,the study of insects,entomology,4
+gloss,glove_idf,dev,a piece of land with water all around,island|isle,96
+gloss,glove_idf,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss,glove_idf,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,7
+gloss,glove_idf,dev,someone who always expects the worst,cynic|pessimist,1
+gloss,glove_idf,dev,a word that takes the place of a noun like she or they,pronoun,5
+gloss,glove_idf,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss,glove_idf,dev,an animal that hunts and eats other animals,carnivore|predator,6
+gloss,glove_idf,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,8
+gloss,glove_idf,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,54
+gloss,glove_idf,dev,an instrument for viewing faraway stars,telescope,46
+gloss,glove_idf,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,21
+gloss,glove_idf,dev,a scientist who studies stars and planets,astronomer|astrophysicist,4
+gloss,glove_idf,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,10
+gloss,glove_idf,test,a person who eats no meat,vegetarian,23
+gloss,glove_idf,test,to talk in a very soft voice,murmur|mutter|whisper,4
+gloss,glove_idf,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss,glove_idf,test,the front end of a boat,bow|prow|stem,
+gloss,glove_idf,test,a person who cannot sleep at night,insomniac,1
+gloss,glove_idf,test,soft white flakes falling from the sky in winter,snow|snowflake,2
+gloss,glove_idf,test,a word that means the same as another,synonym,
+gloss,glove_idf,test,a sudden short burst of wind,blast|gust|puff|squall,83
+gloss,glove_idf,test,a green spot with water in the middle of a desert,oasis,6
+gloss,glove_idf,test,a narrow track through the woods,footpath|path|track|trail,
+gloss,glove_idf,test,a large shed where aircraft are stored,hangar,2
+gloss,glove_idf,test,a vessel that travels underwater,sub|submarine,
+gloss,glove_idf,test,you cannot see through it,opaque,
+gloss,glove_idf,test,a sharp pain in the chest caused by the heart,angina,1
+gloss,glove_idf,test,a bird that hunts at night,owl,
+gloss,glove_idf,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss,glove_idf,test,a device for measuring how hot something is,thermometer,9
+gloss,glove_idf,test,someone who always expects good things,optimist,
+gloss,glove_idf,test,a huge dry sandy area with hardly any rain,desert,30
+gloss,glove_idf,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,32
+gloss,glove_idf,test,a person who fixes leaking taps and pipes,plumber,
+gloss,glove_idf,test,fear of heights,acrophobia,1
+gloss,glove_idf,test,a person who flies airplanes,airman|aviator|flier|pilot,19
+gloss,glove_idf,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss,glove_idf,test,a document that says who gets your belongings after you die,testament|will,25
+gloss,glove_idf,test,an unmarried man,bachelor,
+gloss,glove_idf,test,a sport where two people fight with thin swords,fencing,56
+gloss,glove_idf,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,4
+gloss,glove_idf,test,government by the people,democracy,
+gloss,glove_idf,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss,glove_idf,test,someone who takes pictures with a camera as a job,cameraman|photographer,44
+gloss,glove_idf,test,to keep trying even when it is hard,persevere|persist,
+gloss,glove_idf,test,a baby cat,kitten|kitty,20
+gloss,glove_idf,test,a short funny story,anecdote|gag|jest|joke,16
+gloss,glove_idf,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,18
+gloss,glove_idf,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss,glove_idf,test,to run away secretly to marry,elope,1
+gloss,glove_idf,test,a place where books are lent out,library,1
+gloss,glove_idf,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,49
+gloss,glove_idf,test,a wise and respected teacher,guru|master|mentor|sage,9
+gloss,glove_idf,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss,glove_idf,test,a big group of fish swimming together,school|shoal,1
+gloss,glove_idf,test,someone who writes books,author|novelist|writer,9
+gloss,glove_idf,test,a very hard clear precious gemstone,diamond,3
+gloss,glove_idf,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss,glove_idf,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss,glove_idf,test,someone who cuts hair,barber|hairdresser,17
+gloss,glove_idf,test,an instrument for viewing very tiny things,microscope,
+gloss,glove_idf,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,2
+gloss,glove_idf,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss,glove_idf,test,to look at something very quickly,glance|glimpse|peek|peep,
+gloss,glove_idf,test,so hungry you could eat anything,famished|ravenous|starved|starving,11
+gloss,glove_idf,test,fear of being trapped in small spaces,claustrophobia,48
+gloss,glove_idf,test,a word formed from the first letters of a phrase,acronym,1
+gloss,glove_idf,test,the belief that there is no god,atheism|disbelief,1
+gloss,headword,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss,headword,dev,a long poem about the deeds of a hero,epic|epos|saga,5
+gloss,headword,dev,someone who loves books,bibliophile|bookworm,
+gloss,headword,dev,the sweet sticky food bees make,honey,2
+gloss,headword,dev,an expert who predicts the future from the stars,astrologer,
+gloss,headword,dev,a word that means the opposite,antonym,
+gloss,headword,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss,headword,dev,a book that explains what words mean,dictionary|lexicon,
+gloss,headword,dev,a baby dog,pup|puppy|whelp,15
+gloss,headword,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss,headword,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,
+gloss,headword,dev,a person who paints pictures,artist|painter,
+gloss,headword,dev,good at doing lots of different things,adaptable|versatile,
+gloss,headword,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,26
+gloss,headword,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,45
+gloss,headword,dev,money or help given freely to those in need,alms|charity|donation,
+gloss,headword,dev,the scientific study of the mind and behaviour,psychology,
+gloss,headword,dev,a journey to a holy place,hajj|pilgrimage,2
+gloss,headword,dev,an official count of everyone living in a country,census,
+gloss,headword,dev,a long pointed weapon you throw,dart|javelin|lance|spear,
+gloss,headword,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,4
+gloss,headword,dev,the person who commands a ship,captain|master|skipper,38
+gloss,headword,dev,someone who travels to a sacred place,hajji|pilgrim,
+gloss,headword,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
+gloss,headword,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss,headword,dev,fear of foreigners,xenophobia,
+gloss,headword,dev,an animal that only eats plants,herbivore,
+gloss,headword,dev,a person who can speak many languages,linguist|multilingual|polyglot,
+gloss,headword,dev,someone who bakes bread for a living,baker,
+gloss,headword,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,87
+gloss,headword,dev,a book full of maps,atlas,
+gloss,headword,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss,headword,dev,a place where bees are kept,apiary|beehive|hive,
+gloss,headword,dev,the dot at the end of a sentence,period,7
+gloss,headword,dev,a strong urge to travel and see the world,wanderlust,
+gloss,headword,dev,a young cow,calf|heifer,
+gloss,headword,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss,headword,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,
+gloss,headword,dev,a mountain that throws out hot molten rock,volcano,
+gloss,headword,dev,the study of birds,ornithology,
+gloss,headword,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss,headword,dev,the study of insects,entomology,
+gloss,headword,dev,a piece of land with water all around,island|isle,
+gloss,headword,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss,headword,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,
+gloss,headword,dev,someone who always expects the worst,cynic|pessimist,
+gloss,headword,dev,a word that takes the place of a noun like she or they,pronoun,
+gloss,headword,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss,headword,dev,an animal that hunts and eats other animals,carnivore|predator,
+gloss,headword,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,
+gloss,headword,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss,headword,dev,an instrument for viewing faraway stars,telescope,
+gloss,headword,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,
+gloss,headword,dev,a scientist who studies stars and planets,astronomer|astrophysicist,
+gloss,headword,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,55
+gloss,headword,test,a person who eats no meat,vegetarian,
+gloss,headword,test,to talk in a very soft voice,murmur|mutter|whisper,
+gloss,headword,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss,headword,test,the front end of a boat,bow|prow|stem,
+gloss,headword,test,a person who cannot sleep at night,insomniac,
+gloss,headword,test,soft white flakes falling from the sky in winter,snow|snowflake,9
+gloss,headword,test,a word that means the same as another,synonym,
+gloss,headword,test,a sudden short burst of wind,blast|gust|puff|squall,68
+gloss,headword,test,a green spot with water in the middle of a desert,oasis,
+gloss,headword,test,a narrow track through the woods,footpath|path|track|trail,7
+gloss,headword,test,a large shed where aircraft are stored,hangar,
+gloss,headword,test,a vessel that travels underwater,sub|submarine,15
+gloss,headword,test,you cannot see through it,opaque,
+gloss,headword,test,a sharp pain in the chest caused by the heart,angina,
+gloss,headword,test,a bird that hunts at night,owl,
+gloss,headword,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss,headword,test,a device for measuring how hot something is,thermometer,
+gloss,headword,test,someone who always expects good things,optimist,
+gloss,headword,test,a huge dry sandy area with hardly any rain,desert,
+gloss,headword,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,
+gloss,headword,test,a person who fixes leaking taps and pipes,plumber,
+gloss,headword,test,fear of heights,acrophobia,
+gloss,headword,test,a person who flies airplanes,airman|aviator|flier|pilot,1
+gloss,headword,test,to chop into tiny bits,chop|dice|mince|shred,
+gloss,headword,test,a document that says who gets your belongings after you die,testament|will,
+gloss,headword,test,an unmarried man,bachelor,
+gloss,headword,test,a sport where two people fight with thin swords,fencing,
+gloss,headword,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,
+gloss,headword,test,government by the people,democracy,
+gloss,headword,test,a feeling of great fear,dread|fright|horror|panic|terror,85
+gloss,headword,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss,headword,test,to keep trying even when it is hard,persevere|persist,
+gloss,headword,test,a baby cat,kitten|kitty,70
+gloss,headword,test,a short funny story,anecdote|gag|jest|joke,72
+gloss,headword,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss,headword,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss,headword,test,to run away secretly to marry,elope,
+gloss,headword,test,a place where books are lent out,library,
+gloss,headword,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss,headword,test,a wise and respected teacher,guru|master|mentor|sage,21
+gloss,headword,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss,headword,test,a big group of fish swimming together,school|shoal,
+gloss,headword,test,someone who writes books,author|novelist|writer,23
+gloss,headword,test,a very hard clear precious gemstone,diamond,
+gloss,headword,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss,headword,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss,headword,test,someone who cuts hair,barber|hairdresser,
+gloss,headword,test,an instrument for viewing very tiny things,microscope,
+gloss,headword,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,
+gloss,headword,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss,headword,test,to look at something very quickly,glance|glimpse|peek|peep,
+gloss,headword,test,so hungry you could eat anything,famished|ravenous|starved|starving,31
+gloss,headword,test,fear of being trapped in small spaces,claustrophobia,
+gloss,headword,test,a word formed from the first letters of a phrase,acronym,
+gloss,headword,test,the belief that there is no god,atheism|disbelief,
+gloss,hybrid,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss,hybrid,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss,hybrid,dev,someone who loves books,bibliophile|bookworm,1
+gloss,hybrid,dev,the sweet sticky food bees make,honey,1
+gloss,hybrid,dev,an expert who predicts the future from the stars,astrologer,9
+gloss,hybrid,dev,a word that means the opposite,antonym,6
+gloss,hybrid,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss,hybrid,dev,a book that explains what words mean,dictionary|lexicon,
+gloss,hybrid,dev,a baby dog,pup|puppy|whelp,2
+gloss,hybrid,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss,hybrid,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,22
+gloss,hybrid,dev,a person who paints pictures,artist|painter,23
+gloss,hybrid,dev,good at doing lots of different things,adaptable|versatile,
+gloss,hybrid,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,38
+gloss,hybrid,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,1
+gloss,hybrid,dev,money or help given freely to those in need,alms|charity|donation,
+gloss,hybrid,dev,the scientific study of the mind and behaviour,psychology,
+gloss,hybrid,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss,hybrid,dev,an official count of everyone living in a country,census,
+gloss,hybrid,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss,hybrid,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,16
+gloss,hybrid,dev,the person who commands a ship,captain|master|skipper,1
+gloss,hybrid,dev,someone who travels to a sacred place,hajji|pilgrim,14
+gloss,hybrid,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
+gloss,hybrid,dev,sad because you miss your home,homesick|homesickness|nostalgia,24
+gloss,hybrid,dev,fear of foreigners,xenophobia,1
+gloss,hybrid,dev,an animal that only eats plants,herbivore,14
+gloss,hybrid,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
+gloss,hybrid,dev,someone who bakes bread for a living,baker,1
+gloss,hybrid,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,16
+gloss,hybrid,dev,a book full of maps,atlas,1
+gloss,hybrid,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss,hybrid,dev,a place where bees are kept,apiary|beehive|hive,5
+gloss,hybrid,dev,the dot at the end of a sentence,period,29
+gloss,hybrid,dev,a strong urge to travel and see the world,wanderlust,45
+gloss,hybrid,dev,a young cow,calf|heifer,1
+gloss,hybrid,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss,hybrid,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,23
+gloss,hybrid,dev,a mountain that throws out hot molten rock,volcano,64
+gloss,hybrid,dev,the study of birds,ornithology,7
+gloss,hybrid,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss,hybrid,dev,the study of insects,entomology,4
+gloss,hybrid,dev,a piece of land with water all around,island|isle,63
+gloss,hybrid,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,98
+gloss,hybrid,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,6
+gloss,hybrid,dev,someone who always expects the worst,cynic|pessimist,1
+gloss,hybrid,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss,hybrid,dev,to leave someone or something for good,abandon|desert|forsake|leave,18
+gloss,hybrid,dev,an animal that hunts and eats other animals,carnivore|predator,6
+gloss,hybrid,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,87
+gloss,hybrid,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,43
+gloss,hybrid,dev,an instrument for viewing faraway stars,telescope,
+gloss,hybrid,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,15
+gloss,hybrid,dev,a scientist who studies stars and planets,astronomer|astrophysicist,48
+gloss,hybrid,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,9
+gloss,hybrid,test,a person who eats no meat,vegetarian,3
+gloss,hybrid,test,to talk in a very soft voice,murmur|mutter|whisper,4
+gloss,hybrid,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss,hybrid,test,the front end of a boat,bow|prow|stem,
+gloss,hybrid,test,a person who cannot sleep at night,insomniac,1
+gloss,hybrid,test,soft white flakes falling from the sky in winter,snow|snowflake,3
+gloss,hybrid,test,a word that means the same as another,synonym,
+gloss,hybrid,test,a sudden short burst of wind,blast|gust|puff|squall,37
+gloss,hybrid,test,a green spot with water in the middle of a desert,oasis,2
+gloss,hybrid,test,a narrow track through the woods,footpath|path|track|trail,33
+gloss,hybrid,test,a large shed where aircraft are stored,hangar,2
+gloss,hybrid,test,a vessel that travels underwater,sub|submarine,
+gloss,hybrid,test,you cannot see through it,opaque,
+gloss,hybrid,test,a sharp pain in the chest caused by the heart,angina,2
+gloss,hybrid,test,a bird that hunts at night,owl,
+gloss,hybrid,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss,hybrid,test,a device for measuring how hot something is,thermometer,4
+gloss,hybrid,test,someone who always expects good things,optimist,
+gloss,hybrid,test,a huge dry sandy area with hardly any rain,desert,
+gloss,hybrid,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,10
+gloss,hybrid,test,a person who fixes leaking taps and pipes,plumber,
+gloss,hybrid,test,fear of heights,acrophobia,1
+gloss,hybrid,test,a person who flies airplanes,airman|aviator|flier|pilot,8
+gloss,hybrid,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss,hybrid,test,a document that says who gets your belongings after you die,testament|will,8
+gloss,hybrid,test,an unmarried man,bachelor,70
+gloss,hybrid,test,a sport where two people fight with thin swords,fencing,16
+gloss,hybrid,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
+gloss,hybrid,test,government by the people,democracy,34
+gloss,hybrid,test,a feeling of great fear,dread|fright|horror|panic|terror,24
+gloss,hybrid,test,someone who takes pictures with a camera as a job,cameraman|photographer,20
+gloss,hybrid,test,to keep trying even when it is hard,persevere|persist,
+gloss,hybrid,test,a baby cat,kitten|kitty,16
+gloss,hybrid,test,a short funny story,anecdote|gag|jest|joke,14
+gloss,hybrid,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,96
+gloss,hybrid,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss,hybrid,test,to run away secretly to marry,elope,1
+gloss,hybrid,test,a place where books are lent out,library,10
+gloss,hybrid,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss,hybrid,test,a wise and respected teacher,guru|master|mentor|sage,11
+gloss,hybrid,test,a slow reptile with a hard shell,tortoise|turtle,10
+gloss,hybrid,test,a big group of fish swimming together,school|shoal,1
+gloss,hybrid,test,someone who writes books,author|novelist|writer,18
+gloss,hybrid,test,a very hard clear precious gemstone,diamond,23
+gloss,hybrid,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss,hybrid,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss,hybrid,test,someone who cuts hair,barber|hairdresser,28
+gloss,hybrid,test,an instrument for viewing very tiny things,microscope,
+gloss,hybrid,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,2
+gloss,hybrid,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss,hybrid,test,to look at something very quickly,glance|glimpse|peek|peep,41
+gloss,hybrid,test,so hungry you could eat anything,famished|ravenous|starved|starving,7
+gloss,hybrid,test,fear of being trapped in small spaces,claustrophobia,6
+gloss,hybrid,test,a word formed from the first letters of a phrase,acronym,2
+gloss,hybrid,test,the belief that there is no god,atheism|disbelief,1
+gloss+related,tfidf,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss+related,tfidf,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss+related,tfidf,dev,someone who loves books,bibliophile|bookworm,39
+gloss+related,tfidf,dev,the sweet sticky food bees make,honey,11
+gloss+related,tfidf,dev,an expert who predicts the future from the stars,astrologer,61
+gloss+related,tfidf,dev,a word that means the opposite,antonym,6
+gloss+related,tfidf,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss+related,tfidf,dev,a book that explains what words mean,dictionary|lexicon,
+gloss+related,tfidf,dev,a baby dog,pup|puppy|whelp,28
+gloss+related,tfidf,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,30
+gloss+related,tfidf,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,73
+gloss+related,tfidf,dev,a person who paints pictures,artist|painter,77
+gloss+related,tfidf,dev,good at doing lots of different things,adaptable|versatile,
+gloss+related,tfidf,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,52
+gloss+related,tfidf,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,37
+gloss+related,tfidf,dev,money or help given freely to those in need,alms|charity|donation,
+gloss+related,tfidf,dev,the scientific study of the mind and behaviour,psychology,75
+gloss+related,tfidf,dev,a journey to a holy place,hajj|pilgrimage,2
+gloss+related,tfidf,dev,an official count of everyone living in a country,census,6
+gloss+related,tfidf,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss+related,tfidf,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,24
+gloss+related,tfidf,dev,the person who commands a ship,captain|master|skipper,8
+gloss+related,tfidf,dev,someone who travels to a sacred place,hajji|pilgrim,47
+gloss+related,tfidf,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
+gloss+related,tfidf,dev,sad because you miss your home,homesick|homesickness|nostalgia,7
+gloss+related,tfidf,dev,fear of foreigners,xenophobia,1
+gloss+related,tfidf,dev,an animal that only eats plants,herbivore,
+gloss+related,tfidf,dev,a person who can speak many languages,linguist|multilingual|polyglot,2
+gloss+related,tfidf,dev,someone who bakes bread for a living,baker,26
+gloss+related,tfidf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,85
+gloss+related,tfidf,dev,a book full of maps,atlas,2
+gloss+related,tfidf,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss+related,tfidf,dev,a place where bees are kept,apiary|beehive|hive,28
+gloss+related,tfidf,dev,the dot at the end of a sentence,period,48
+gloss+related,tfidf,dev,a strong urge to travel and see the world,wanderlust,2
+gloss+related,tfidf,dev,a young cow,calf|heifer,1
+gloss+related,tfidf,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss+related,tfidf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,
+gloss+related,tfidf,dev,a mountain that throws out hot molten rock,volcano,22
+gloss+related,tfidf,dev,the study of birds,ornithology,74
+gloss+related,tfidf,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss+related,tfidf,dev,the study of insects,entomology,54
+gloss+related,tfidf,dev,a piece of land with water all around,island|isle,54
+gloss+related,tfidf,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss+related,tfidf,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,12
+gloss+related,tfidf,dev,someone who always expects the worst,cynic|pessimist,2
+gloss+related,tfidf,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss+related,tfidf,dev,to leave someone or something for good,abandon|desert|forsake|leave,12
+gloss+related,tfidf,dev,an animal that hunts and eats other animals,carnivore|predator,15
+gloss+related,tfidf,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,
+gloss+related,tfidf,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,9
+gloss+related,tfidf,dev,an instrument for viewing faraway stars,telescope,
+gloss+related,tfidf,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,12
+gloss+related,tfidf,dev,a scientist who studies stars and planets,astronomer|astrophysicist,
+gloss+related,tfidf,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,7
+gloss+related,tfidf,test,a person who eats no meat,vegetarian,38
+gloss+related,tfidf,test,to talk in a very soft voice,murmur|mutter|whisper,18
+gloss+related,tfidf,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss+related,tfidf,test,the front end of a boat,bow|prow|stem,
+gloss+related,tfidf,test,a person who cannot sleep at night,insomniac,1
+gloss+related,tfidf,test,soft white flakes falling from the sky in winter,snow|snowflake,58
+gloss+related,tfidf,test,a word that means the same as another,synonym,
+gloss+related,tfidf,test,a sudden short burst of wind,blast|gust|puff|squall,14
+gloss+related,tfidf,test,a green spot with water in the middle of a desert,oasis,
+gloss+related,tfidf,test,a narrow track through the woods,footpath|path|track|trail,12
+gloss+related,tfidf,test,a large shed where aircraft are stored,hangar,8
+gloss+related,tfidf,test,a vessel that travels underwater,sub|submarine,
+gloss+related,tfidf,test,you cannot see through it,opaque,
+gloss+related,tfidf,test,a sharp pain in the chest caused by the heart,angina,4
+gloss+related,tfidf,test,a bird that hunts at night,owl,
+gloss+related,tfidf,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss+related,tfidf,test,a device for measuring how hot something is,thermometer,5
+gloss+related,tfidf,test,someone who always expects good things,optimist,
+gloss+related,tfidf,test,a huge dry sandy area with hardly any rain,desert,
+gloss+related,tfidf,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,54
+gloss+related,tfidf,test,a person who fixes leaking taps and pipes,plumber,
+gloss+related,tfidf,test,fear of heights,acrophobia,1
+gloss+related,tfidf,test,a person who flies airplanes,airman|aviator|flier|pilot,18
+gloss+related,tfidf,test,to chop into tiny bits,chop|dice|mince|shred,4
+gloss+related,tfidf,test,a document that says who gets your belongings after you die,testament|will,18
+gloss+related,tfidf,test,an unmarried man,bachelor,20
+gloss+related,tfidf,test,a sport where two people fight with thin swords,fencing,2
+gloss+related,tfidf,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
+gloss+related,tfidf,test,government by the people,democracy,61
+gloss+related,tfidf,test,a feeling of great fear,dread|fright|horror|panic|terror,8
+gloss+related,tfidf,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss+related,tfidf,test,to keep trying even when it is hard,persevere|persist,
+gloss+related,tfidf,test,a baby cat,kitten|kitty,26
+gloss+related,tfidf,test,a short funny story,anecdote|gag|jest|joke,14
+gloss+related,tfidf,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss+related,tfidf,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss+related,tfidf,test,to run away secretly to marry,elope,2
+gloss+related,tfidf,test,a place where books are lent out,library,
+gloss+related,tfidf,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss+related,tfidf,test,a wise and respected teacher,guru|master|mentor|sage,20
+gloss+related,tfidf,test,a slow reptile with a hard shell,tortoise|turtle,9
+gloss+related,tfidf,test,a big group of fish swimming together,school|shoal,1
+gloss+related,tfidf,test,someone who writes books,author|novelist|writer,
+gloss+related,tfidf,test,a very hard clear precious gemstone,diamond,10
+gloss+related,tfidf,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss+related,tfidf,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss+related,tfidf,test,someone who cuts hair,barber|hairdresser,
+gloss+related,tfidf,test,an instrument for viewing very tiny things,microscope,
+gloss+related,tfidf,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,32
+gloss+related,tfidf,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,30
+gloss+related,tfidf,test,to look at something very quickly,glance|glimpse|peek|peep,11
+gloss+related,tfidf,test,so hungry you could eat anything,famished|ravenous|starved|starving,
+gloss+related,tfidf,test,fear of being trapped in small spaces,claustrophobia,35
+gloss+related,tfidf,test,a word formed from the first letters of a phrase,acronym,2
+gloss+related,tfidf,test,the belief that there is no god,atheism|disbelief,4
+gloss+related,glove_avg,dev,the scientific study of how the body works,anatomy|biology|physiology,43
+gloss+related,glove_avg,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss+related,glove_avg,dev,someone who loves books,bibliophile|bookworm,95
+gloss+related,glove_avg,dev,the sweet sticky food bees make,honey,13
+gloss+related,glove_avg,dev,an expert who predicts the future from the stars,astrologer,
+gloss+related,glove_avg,dev,a word that means the opposite,antonym,
+gloss+related,glove_avg,dev,money paid monthly to someone who has stopped working,annuity|pension,49
+gloss+related,glove_avg,dev,a book that explains what words mean,dictionary|lexicon,
+gloss+related,glove_avg,dev,a baby dog,pup|puppy|whelp,2
+gloss+related,glove_avg,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss+related,glove_avg,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,2
+gloss+related,glove_avg,dev,a person who paints pictures,artist|painter,17
+gloss+related,glove_avg,dev,good at doing lots of different things,adaptable|versatile,
+gloss+related,glove_avg,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
+gloss+related,glove_avg,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,49
+gloss+related,glove_avg,dev,money or help given freely to those in need,alms|charity|donation,
+gloss+related,glove_avg,dev,the scientific study of the mind and behaviour,psychology,10
+gloss+related,glove_avg,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss+related,glove_avg,dev,an official count of everyone living in a country,census,
+gloss+related,glove_avg,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss+related,glove_avg,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,1
+gloss+related,glove_avg,dev,the person who commands a ship,captain|master|skipper,1
+gloss+related,glove_avg,dev,someone who travels to a sacred place,hajji|pilgrim,
+gloss+related,glove_avg,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,12
+gloss+related,glove_avg,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss+related,glove_avg,dev,fear of foreigners,xenophobia,1
+gloss+related,glove_avg,dev,an animal that only eats plants,herbivore,
+gloss+related,glove_avg,dev,a person who can speak many languages,linguist|multilingual|polyglot,16
+gloss+related,glove_avg,dev,someone who bakes bread for a living,baker,40
+gloss+related,glove_avg,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,80
+gloss+related,glove_avg,dev,a book full of maps,atlas,1
+gloss+related,glove_avg,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss+related,glove_avg,dev,a place where bees are kept,apiary|beehive|hive,1
+gloss+related,glove_avg,dev,the dot at the end of a sentence,period,6
+gloss+related,glove_avg,dev,a strong urge to travel and see the world,wanderlust,25
+gloss+related,glove_avg,dev,a young cow,calf|heifer,12
+gloss+related,glove_avg,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss+related,glove_avg,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,18
+gloss+related,glove_avg,dev,a mountain that throws out hot molten rock,volcano,
+gloss+related,glove_avg,dev,the study of birds,ornithology,25
+gloss+related,glove_avg,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss+related,glove_avg,dev,the study of insects,entomology,25
+gloss+related,glove_avg,dev,a piece of land with water all around,island|isle,
+gloss+related,glove_avg,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss+related,glove_avg,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,44
+gloss+related,glove_avg,dev,someone who always expects the worst,cynic|pessimist,
+gloss+related,glove_avg,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss+related,glove_avg,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss+related,glove_avg,dev,an animal that hunts and eats other animals,carnivore|predator,
+gloss+related,glove_avg,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,9
+gloss+related,glove_avg,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss+related,glove_avg,dev,an instrument for viewing faraway stars,telescope,78
+gloss+related,glove_avg,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,10
+gloss+related,glove_avg,dev,a scientist who studies stars and planets,astronomer|astrophysicist,48
+gloss+related,glove_avg,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,8
+gloss+related,glove_avg,test,a person who eats no meat,vegetarian,58
+gloss+related,glove_avg,test,to talk in a very soft voice,murmur|mutter|whisper,17
+gloss+related,glove_avg,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss+related,glove_avg,test,the front end of a boat,bow|prow|stem,2
+gloss+related,glove_avg,test,a person who cannot sleep at night,insomniac,
+gloss+related,glove_avg,test,soft white flakes falling from the sky in winter,snow|snowflake,24
+gloss+related,glove_avg,test,a word that means the same as another,synonym,56
+gloss+related,glove_avg,test,a sudden short burst of wind,blast|gust|puff|squall,29
+gloss+related,glove_avg,test,a green spot with water in the middle of a desert,oasis,46
+gloss+related,glove_avg,test,a narrow track through the woods,footpath|path|track|trail,
+gloss+related,glove_avg,test,a large shed where aircraft are stored,hangar,2
+gloss+related,glove_avg,test,a vessel that travels underwater,sub|submarine,
+gloss+related,glove_avg,test,you cannot see through it,opaque,
+gloss+related,glove_avg,test,a sharp pain in the chest caused by the heart,angina,7
+gloss+related,glove_avg,test,a bird that hunts at night,owl,
+gloss+related,glove_avg,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss+related,glove_avg,test,a device for measuring how hot something is,thermometer,2
+gloss+related,glove_avg,test,someone who always expects good things,optimist,
+gloss+related,glove_avg,test,a huge dry sandy area with hardly any rain,desert,
+gloss+related,glove_avg,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,
+gloss+related,glove_avg,test,a person who fixes leaking taps and pipes,plumber,
+gloss+related,glove_avg,test,fear of heights,acrophobia,1
+gloss+related,glove_avg,test,a person who flies airplanes,airman|aviator|flier|pilot,11
+gloss+related,glove_avg,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss+related,glove_avg,test,a document that says who gets your belongings after you die,testament|will,46
+gloss+related,glove_avg,test,an unmarried man,bachelor,13
+gloss+related,glove_avg,test,a sport where two people fight with thin swords,fencing,9
+gloss+related,glove_avg,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
+gloss+related,glove_avg,test,government by the people,democracy,14
+gloss+related,glove_avg,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss+related,glove_avg,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss+related,glove_avg,test,to keep trying even when it is hard,persevere|persist,
+gloss+related,glove_avg,test,a baby cat,kitten|kitty,1
+gloss+related,glove_avg,test,a short funny story,anecdote|gag|jest|joke,
+gloss+related,glove_avg,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss+related,glove_avg,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss+related,glove_avg,test,to run away secretly to marry,elope,1
+gloss+related,glove_avg,test,a place where books are lent out,library,
+gloss+related,glove_avg,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,45
+gloss+related,glove_avg,test,a wise and respected teacher,guru|master|mentor|sage,17
+gloss+related,glove_avg,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss+related,glove_avg,test,a big group of fish swimming together,school|shoal,1
+gloss+related,glove_avg,test,someone who writes books,author|novelist|writer,5
+gloss+related,glove_avg,test,a very hard clear precious gemstone,diamond,2
+gloss+related,glove_avg,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss+related,glove_avg,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss+related,glove_avg,test,someone who cuts hair,barber|hairdresser,21
+gloss+related,glove_avg,test,an instrument for viewing very tiny things,microscope,
+gloss+related,glove_avg,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,
+gloss+related,glove_avg,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss+related,glove_avg,test,to look at something very quickly,glance|glimpse|peek|peep,44
+gloss+related,glove_avg,test,so hungry you could eat anything,famished|ravenous|starved|starving,28
+gloss+related,glove_avg,test,fear of being trapped in small spaces,claustrophobia,89
+gloss+related,glove_avg,test,a word formed from the first letters of a phrase,acronym,4
+gloss+related,glove_avg,test,the belief that there is no god,atheism|disbelief,8
+gloss+related,glove_idf,dev,the scientific study of how the body works,anatomy|biology|physiology,82
+gloss+related,glove_idf,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss+related,glove_idf,dev,someone who loves books,bibliophile|bookworm,
+gloss+related,glove_idf,dev,the sweet sticky food bees make,honey,1
+gloss+related,glove_idf,dev,an expert who predicts the future from the stars,astrologer,
+gloss+related,glove_idf,dev,a word that means the opposite,antonym,68
+gloss+related,glove_idf,dev,money paid monthly to someone who has stopped working,annuity|pension,18
+gloss+related,glove_idf,dev,a book that explains what words mean,dictionary|lexicon,
+gloss+related,glove_idf,dev,a baby dog,pup|puppy|whelp,49
+gloss+related,glove_idf,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,44
+gloss+related,glove_idf,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,5
+gloss+related,glove_idf,dev,a person who paints pictures,artist|painter,
+gloss+related,glove_idf,dev,good at doing lots of different things,adaptable|versatile,
+gloss+related,glove_idf,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
+gloss+related,glove_idf,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,30
+gloss+related,glove_idf,dev,money or help given freely to those in need,alms|charity|donation,
+gloss+related,glove_idf,dev,the scientific study of the mind and behaviour,psychology,12
+gloss+related,glove_idf,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss+related,glove_idf,dev,an official count of everyone living in a country,census,
+gloss+related,glove_idf,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss+related,glove_idf,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,1
+gloss+related,glove_idf,dev,the person who commands a ship,captain|master|skipper,1
+gloss+related,glove_idf,dev,someone who travels to a sacred place,hajji|pilgrim,
+gloss+related,glove_idf,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,39
+gloss+related,glove_idf,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss+related,glove_idf,dev,fear of foreigners,xenophobia,1
+gloss+related,glove_idf,dev,an animal that only eats plants,herbivore,
+gloss+related,glove_idf,dev,a person who can speak many languages,linguist|multilingual|polyglot,30
+gloss+related,glove_idf,dev,someone who bakes bread for a living,baker,
+gloss+related,glove_idf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,
+gloss+related,glove_idf,dev,a book full of maps,atlas,1
+gloss+related,glove_idf,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss+related,glove_idf,dev,a place where bees are kept,apiary|beehive|hive,1
+gloss+related,glove_idf,dev,the dot at the end of a sentence,period,40
+gloss+related,glove_idf,dev,a strong urge to travel and see the world,wanderlust,
+gloss+related,glove_idf,dev,a young cow,calf|heifer,1
+gloss+related,glove_idf,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss+related,glove_idf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,91
+gloss+related,glove_idf,dev,a mountain that throws out hot molten rock,volcano,60
+gloss+related,glove_idf,dev,the study of birds,ornithology,
+gloss+related,glove_idf,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss+related,glove_idf,dev,the study of insects,entomology,
+gloss+related,glove_idf,dev,a piece of land with water all around,island|isle,37
+gloss+related,glove_idf,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss+related,glove_idf,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,7
+gloss+related,glove_idf,dev,someone who always expects the worst,cynic|pessimist,
+gloss+related,glove_idf,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss+related,glove_idf,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss+related,glove_idf,dev,an animal that hunts and eats other animals,carnivore|predator,78
+gloss+related,glove_idf,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,34
+gloss+related,glove_idf,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss+related,glove_idf,dev,an instrument for viewing faraway stars,telescope,
+gloss+related,glove_idf,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,14
+gloss+related,glove_idf,dev,a scientist who studies stars and planets,astronomer|astrophysicist,83
+gloss+related,glove_idf,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,6
+gloss+related,glove_idf,test,a person who eats no meat,vegetarian,
+gloss+related,glove_idf,test,to talk in a very soft voice,murmur|mutter|whisper,18
+gloss+related,glove_idf,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss+related,glove_idf,test,the front end of a boat,bow|prow|stem,5
+gloss+related,glove_idf,test,a person who cannot sleep at night,insomniac,
+gloss+related,glove_idf,test,soft white flakes falling from the sky in winter,snow|snowflake,5
+gloss+related,glove_idf,test,a word that means the same as another,synonym,64
+gloss+related,glove_idf,test,a sudden short burst of wind,blast|gust|puff|squall,42
+gloss+related,glove_idf,test,a green spot with water in the middle of a desert,oasis,
+gloss+related,glove_idf,test,a narrow track through the woods,footpath|path|track|trail,11
+gloss+related,glove_idf,test,a large shed where aircraft are stored,hangar,2
+gloss+related,glove_idf,test,a vessel that travels underwater,sub|submarine,
+gloss+related,glove_idf,test,you cannot see through it,opaque,
+gloss+related,glove_idf,test,a sharp pain in the chest caused by the heart,angina,5
+gloss+related,glove_idf,test,a bird that hunts at night,owl,
+gloss+related,glove_idf,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss+related,glove_idf,test,a device for measuring how hot something is,thermometer,14
+gloss+related,glove_idf,test,someone who always expects good things,optimist,
+gloss+related,glove_idf,test,a huge dry sandy area with hardly any rain,desert,
+gloss+related,glove_idf,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,54
+gloss+related,glove_idf,test,a person who fixes leaking taps and pipes,plumber,
+gloss+related,glove_idf,test,fear of heights,acrophobia,3
+gloss+related,glove_idf,test,a person who flies airplanes,airman|aviator|flier|pilot,28
+gloss+related,glove_idf,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss+related,glove_idf,test,a document that says who gets your belongings after you die,testament|will,
+gloss+related,glove_idf,test,an unmarried man,bachelor,21
+gloss+related,glove_idf,test,a sport where two people fight with thin swords,fencing,15
+gloss+related,glove_idf,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,6
+gloss+related,glove_idf,test,government by the people,democracy,14
+gloss+related,glove_idf,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss+related,glove_idf,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss+related,glove_idf,test,to keep trying even when it is hard,persevere|persist,
+gloss+related,glove_idf,test,a baby cat,kitten|kitty,1
+gloss+related,glove_idf,test,a short funny story,anecdote|gag|jest|joke,
+gloss+related,glove_idf,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss+related,glove_idf,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss+related,glove_idf,test,to run away secretly to marry,elope,2
+gloss+related,glove_idf,test,a place where books are lent out,library,
+gloss+related,glove_idf,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss+related,glove_idf,test,a wise and respected teacher,guru|master|mentor|sage,11
+gloss+related,glove_idf,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss+related,glove_idf,test,a big group of fish swimming together,school|shoal,1
+gloss+related,glove_idf,test,someone who writes books,author|novelist|writer,8
+gloss+related,glove_idf,test,a very hard clear precious gemstone,diamond,1
+gloss+related,glove_idf,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss+related,glove_idf,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss+related,glove_idf,test,someone who cuts hair,barber|hairdresser,73
+gloss+related,glove_idf,test,an instrument for viewing very tiny things,microscope,
+gloss+related,glove_idf,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,
+gloss+related,glove_idf,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss+related,glove_idf,test,to look at something very quickly,glance|glimpse|peek|peep,9
+gloss+related,glove_idf,test,so hungry you could eat anything,famished|ravenous|starved|starving,12
+gloss+related,glove_idf,test,fear of being trapped in small spaces,claustrophobia,
+gloss+related,glove_idf,test,a word formed from the first letters of a phrase,acronym,5
+gloss+related,glove_idf,test,the belief that there is no god,atheism|disbelief,12
+gloss+related,headword,dev,the scientific study of how the body works,anatomy|biology|physiology,
+gloss+related,headword,dev,a long poem about the deeds of a hero,epic|epos|saga,4
+gloss+related,headword,dev,someone who loves books,bibliophile|bookworm,
+gloss+related,headword,dev,the sweet sticky food bees make,honey,2
+gloss+related,headword,dev,an expert who predicts the future from the stars,astrologer,
+gloss+related,headword,dev,a word that means the opposite,antonym,
+gloss+related,headword,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss+related,headword,dev,a book that explains what words mean,dictionary|lexicon,
+gloss+related,headword,dev,a baby dog,pup|puppy|whelp,15
+gloss+related,headword,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
+gloss+related,headword,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,
+gloss+related,headword,dev,a person who paints pictures,artist|painter,
+gloss+related,headword,dev,good at doing lots of different things,adaptable|versatile,
+gloss+related,headword,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,22
+gloss+related,headword,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,61
+gloss+related,headword,dev,money or help given freely to those in need,alms|charity|donation,
+gloss+related,headword,dev,the scientific study of the mind and behaviour,psychology,
+gloss+related,headword,dev,a journey to a holy place,hajj|pilgrimage,2
+gloss+related,headword,dev,an official count of everyone living in a country,census,
+gloss+related,headword,dev,a long pointed weapon you throw,dart|javelin|lance|spear,
+gloss+related,headword,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,4
+gloss+related,headword,dev,the person who commands a ship,captain|master|skipper,37
+gloss+related,headword,dev,someone who travels to a sacred place,hajji|pilgrim,
+gloss+related,headword,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
+gloss+related,headword,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss+related,headword,dev,fear of foreigners,xenophobia,
+gloss+related,headword,dev,an animal that only eats plants,herbivore,
+gloss+related,headword,dev,a person who can speak many languages,linguist|multilingual|polyglot,
+gloss+related,headword,dev,someone who bakes bread for a living,baker,
+gloss+related,headword,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,87
+gloss+related,headword,dev,a book full of maps,atlas,
+gloss+related,headword,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss+related,headword,dev,a place where bees are kept,apiary|beehive|hive,
+gloss+related,headword,dev,the dot at the end of a sentence,period,7
+gloss+related,headword,dev,a strong urge to travel and see the world,wanderlust,
+gloss+related,headword,dev,a young cow,calf|heifer,
+gloss+related,headword,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss+related,headword,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,
+gloss+related,headword,dev,a mountain that throws out hot molten rock,volcano,
+gloss+related,headword,dev,the study of birds,ornithology,
+gloss+related,headword,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss+related,headword,dev,the study of insects,entomology,
+gloss+related,headword,dev,a piece of land with water all around,island|isle,
+gloss+related,headword,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss+related,headword,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,
+gloss+related,headword,dev,someone who always expects the worst,cynic|pessimist,
+gloss+related,headword,dev,a word that takes the place of a noun like she or they,pronoun,
+gloss+related,headword,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss+related,headword,dev,an animal that hunts and eats other animals,carnivore|predator,
+gloss+related,headword,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,
+gloss+related,headword,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss+related,headword,dev,an instrument for viewing faraway stars,telescope,
+gloss+related,headword,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,
+gloss+related,headword,dev,a scientist who studies stars and planets,astronomer|astrophysicist,
+gloss+related,headword,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,61
+gloss+related,headword,test,a person who eats no meat,vegetarian,
+gloss+related,headword,test,to talk in a very soft voice,murmur|mutter|whisper,
+gloss+related,headword,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss+related,headword,test,the front end of a boat,bow|prow|stem,
+gloss+related,headword,test,a person who cannot sleep at night,insomniac,
+gloss+related,headword,test,soft white flakes falling from the sky in winter,snow|snowflake,12
+gloss+related,headword,test,a word that means the same as another,synonym,
+gloss+related,headword,test,a sudden short burst of wind,blast|gust|puff|squall,73
+gloss+related,headword,test,a green spot with water in the middle of a desert,oasis,
+gloss+related,headword,test,a narrow track through the woods,footpath|path|track|trail,7
+gloss+related,headword,test,a large shed where aircraft are stored,hangar,
+gloss+related,headword,test,a vessel that travels underwater,sub|submarine,15
+gloss+related,headword,test,you cannot see through it,opaque,
+gloss+related,headword,test,a sharp pain in the chest caused by the heart,angina,
+gloss+related,headword,test,a bird that hunts at night,owl,
+gloss+related,headword,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss+related,headword,test,a device for measuring how hot something is,thermometer,
+gloss+related,headword,test,someone who always expects good things,optimist,
+gloss+related,headword,test,a huge dry sandy area with hardly any rain,desert,
+gloss+related,headword,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,
+gloss+related,headword,test,a person who fixes leaking taps and pipes,plumber,
+gloss+related,headword,test,fear of heights,acrophobia,
+gloss+related,headword,test,a person who flies airplanes,airman|aviator|flier|pilot,1
+gloss+related,headword,test,to chop into tiny bits,chop|dice|mince|shred,
+gloss+related,headword,test,a document that says who gets your belongings after you die,testament|will,
+gloss+related,headword,test,an unmarried man,bachelor,
+gloss+related,headword,test,a sport where two people fight with thin swords,fencing,
+gloss+related,headword,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,
+gloss+related,headword,test,government by the people,democracy,
+gloss+related,headword,test,a feeling of great fear,dread|fright|horror|panic|terror,85
+gloss+related,headword,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss+related,headword,test,to keep trying even when it is hard,persevere|persist,
+gloss+related,headword,test,a baby cat,kitten|kitty,67
+gloss+related,headword,test,a short funny story,anecdote|gag|jest|joke,80
+gloss+related,headword,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss+related,headword,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss+related,headword,test,to run away secretly to marry,elope,
+gloss+related,headword,test,a place where books are lent out,library,
+gloss+related,headword,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss+related,headword,test,a wise and respected teacher,guru|master|mentor|sage,53
+gloss+related,headword,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss+related,headword,test,a big group of fish swimming together,school|shoal,
+gloss+related,headword,test,someone who writes books,author|novelist|writer,23
+gloss+related,headword,test,a very hard clear precious gemstone,diamond,
+gloss+related,headword,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss+related,headword,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss+related,headword,test,someone who cuts hair,barber|hairdresser,
+gloss+related,headword,test,an instrument for viewing very tiny things,microscope,
+gloss+related,headword,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,
+gloss+related,headword,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss+related,headword,test,to look at something very quickly,glance|glimpse|peek|peep,
+gloss+related,headword,test,so hungry you could eat anything,famished|ravenous|starved|starving,31
+gloss+related,headword,test,fear of being trapped in small spaces,claustrophobia,
+gloss+related,headword,test,a word formed from the first letters of a phrase,acronym,
+gloss+related,headword,test,the belief that there is no god,atheism|disbelief,
+gloss+related,hybrid,dev,the scientific study of how the body works,anatomy|biology|physiology,82
+gloss+related,hybrid,dev,a long poem about the deeds of a hero,epic|epos|saga,1
+gloss+related,hybrid,dev,someone who loves books,bibliophile|bookworm,
+gloss+related,hybrid,dev,the sweet sticky food bees make,honey,1
+gloss+related,hybrid,dev,an expert who predicts the future from the stars,astrologer,
+gloss+related,hybrid,dev,a word that means the opposite,antonym,68
+gloss+related,hybrid,dev,money paid monthly to someone who has stopped working,annuity|pension,18
+gloss+related,hybrid,dev,a book that explains what words mean,dictionary|lexicon,
+gloss+related,hybrid,dev,a baby dog,pup|puppy|whelp,49
+gloss+related,hybrid,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,44
+gloss+related,hybrid,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,5
+gloss+related,hybrid,dev,a person who paints pictures,artist|painter,
+gloss+related,hybrid,dev,good at doing lots of different things,adaptable|versatile,
+gloss+related,hybrid,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
+gloss+related,hybrid,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,30
+gloss+related,hybrid,dev,money or help given freely to those in need,alms|charity|donation,
+gloss+related,hybrid,dev,the scientific study of the mind and behaviour,psychology,12
+gloss+related,hybrid,dev,a journey to a holy place,hajj|pilgrimage,1
+gloss+related,hybrid,dev,an official count of everyone living in a country,census,
+gloss+related,hybrid,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
+gloss+related,hybrid,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,1
+gloss+related,hybrid,dev,the person who commands a ship,captain|master|skipper,1
+gloss+related,hybrid,dev,someone who travels to a sacred place,hajji|pilgrim,
+gloss+related,hybrid,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,39
+gloss+related,hybrid,dev,sad because you miss your home,homesick|homesickness|nostalgia,
+gloss+related,hybrid,dev,fear of foreigners,xenophobia,1
+gloss+related,hybrid,dev,an animal that only eats plants,herbivore,
+gloss+related,hybrid,dev,a person who can speak many languages,linguist|multilingual|polyglot,30
+gloss+related,hybrid,dev,someone who bakes bread for a living,baker,
+gloss+related,hybrid,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,
+gloss+related,hybrid,dev,a book full of maps,atlas,1
+gloss+related,hybrid,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
+gloss+related,hybrid,dev,a place where bees are kept,apiary|beehive|hive,1
+gloss+related,hybrid,dev,the dot at the end of a sentence,period,40
+gloss+related,hybrid,dev,a strong urge to travel and see the world,wanderlust,
+gloss+related,hybrid,dev,a young cow,calf|heifer,1
+gloss+related,hybrid,dev,a huge grey animal with a long trunk and tusks,elephant,
+gloss+related,hybrid,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,91
+gloss+related,hybrid,dev,a mountain that throws out hot molten rock,volcano,60
+gloss+related,hybrid,dev,the study of birds,ornithology,
+gloss+related,hybrid,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
+gloss+related,hybrid,dev,the study of insects,entomology,
+gloss+related,hybrid,dev,a piece of land with water all around,island|isle,37
+gloss+related,hybrid,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
+gloss+related,hybrid,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,7
+gloss+related,hybrid,dev,someone who always expects the worst,cynic|pessimist,
+gloss+related,hybrid,dev,a word that takes the place of a noun like she or they,pronoun,1
+gloss+related,hybrid,dev,to leave someone or something for good,abandon|desert|forsake|leave,
+gloss+related,hybrid,dev,an animal that hunts and eats other animals,carnivore|predator,78
+gloss+related,hybrid,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,34
+gloss+related,hybrid,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,
+gloss+related,hybrid,dev,an instrument for viewing faraway stars,telescope,
+gloss+related,hybrid,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,14
+gloss+related,hybrid,dev,a scientist who studies stars and planets,astronomer|astrophysicist,83
+gloss+related,hybrid,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,6
+gloss+related,hybrid,test,a person who eats no meat,vegetarian,
+gloss+related,hybrid,test,to talk in a very soft voice,murmur|mutter|whisper,18
+gloss+related,hybrid,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
+gloss+related,hybrid,test,the front end of a boat,bow|prow|stem,5
+gloss+related,hybrid,test,a person who cannot sleep at night,insomniac,
+gloss+related,hybrid,test,soft white flakes falling from the sky in winter,snow|snowflake,5
+gloss+related,hybrid,test,a word that means the same as another,synonym,64
+gloss+related,hybrid,test,a sudden short burst of wind,blast|gust|puff|squall,42
+gloss+related,hybrid,test,a green spot with water in the middle of a desert,oasis,
+gloss+related,hybrid,test,a narrow track through the woods,footpath|path|track|trail,11
+gloss+related,hybrid,test,a large shed where aircraft are stored,hangar,2
+gloss+related,hybrid,test,a vessel that travels underwater,sub|submarine,
+gloss+related,hybrid,test,you cannot see through it,opaque,
+gloss+related,hybrid,test,a sharp pain in the chest caused by the heart,angina,5
+gloss+related,hybrid,test,a bird that hunts at night,owl,
+gloss+related,hybrid,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
+gloss+related,hybrid,test,a device for measuring how hot something is,thermometer,14
+gloss+related,hybrid,test,someone who always expects good things,optimist,
+gloss+related,hybrid,test,a huge dry sandy area with hardly any rain,desert,
+gloss+related,hybrid,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,54
+gloss+related,hybrid,test,a person who fixes leaking taps and pipes,plumber,
+gloss+related,hybrid,test,fear of heights,acrophobia,3
+gloss+related,hybrid,test,a person who flies airplanes,airman|aviator|flier|pilot,28
+gloss+related,hybrid,test,to chop into tiny bits,chop|dice|mince|shred,1
+gloss+related,hybrid,test,a document that says who gets your belongings after you die,testament|will,
+gloss+related,hybrid,test,an unmarried man,bachelor,21
+gloss+related,hybrid,test,a sport where two people fight with thin swords,fencing,15
+gloss+related,hybrid,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,6
+gloss+related,hybrid,test,government by the people,democracy,14
+gloss+related,hybrid,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss+related,hybrid,test,someone who takes pictures with a camera as a job,cameraman|photographer,
+gloss+related,hybrid,test,to keep trying even when it is hard,persevere|persist,
+gloss+related,hybrid,test,a baby cat,kitten|kitty,1
+gloss+related,hybrid,test,a short funny story,anecdote|gag|jest|joke,
+gloss+related,hybrid,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,
+gloss+related,hybrid,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
+gloss+related,hybrid,test,to run away secretly to marry,elope,2
+gloss+related,hybrid,test,a place where books are lent out,library,
+gloss+related,hybrid,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss+related,hybrid,test,a wise and respected teacher,guru|master|mentor|sage,11
+gloss+related,hybrid,test,a slow reptile with a hard shell,tortoise|turtle,
+gloss+related,hybrid,test,a big group of fish swimming together,school|shoal,1
+gloss+related,hybrid,test,someone who writes books,author|novelist|writer,8
+gloss+related,hybrid,test,a very hard clear precious gemstone,diamond,1
+gloss+related,hybrid,test,getting better after an illness,convalescence|healing|recovery|recuperation,
+gloss+related,hybrid,test,the study of ancient remains and tools of past people,archaeology|archeology,
+gloss+related,hybrid,test,someone who cuts hair,barber|hairdresser,73
+gloss+related,hybrid,test,an instrument for viewing very tiny things,microscope,
+gloss+related,hybrid,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,
+gloss+related,hybrid,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
+gloss+related,hybrid,test,to look at something very quickly,glance|glimpse|peek|peep,9
+gloss+related,hybrid,test,so hungry you could eat anything,famished|ravenous|starved|starving,12
+gloss+related,hybrid,test,fear of being trapped in small spaces,claustrophobia,
+gloss+related,hybrid,test,a word formed from the first letters of a phrase,acronym,5
+gloss+related,hybrid,test,the belief that there is no god,atheism|disbelief,12

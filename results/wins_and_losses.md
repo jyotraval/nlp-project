@@ -1,0 +1,265 @@
+# Where embeddings win, and where they lose
+
+Computed on all queries with the best configuration. A method 'finds' a query when the answer is in its top 10 words.
+
+
+## Embeddings find it, TF-IDF misses (15 queries)
+
+- **a scientist who studies stars and planets** -> expected `astronomer`/`astrophysicist`  (TF-IDF rank: None, GloVe-IDF rank: 4)
+  - TF-IDF top 5: astrolatry, interplanetary, satellite, interstellar, biologist
+  - GloVe-IDF top 5: cosmologist, oceanographer, satellite, astrophysicist, armilla
+  - definition: "an astronomer who studies the physical properties of celestial bodies"; shared words: ['study']; semantic links: [('scientist', 'astronomer', 0.67), ('planet', 'celestial', 0.48)]
+- **a place where bees are kept** -> expected `apiary`/`beehive`/`hive`  (TF-IDF rank: 11, GloVe-IDF rank: 1)
+  - TF-IDF top 5: apiarist, apiculturist, beekeeper, concordant, accordant
+  - GloVe-IDF top 5: hive, apiarist, apiculturist, beekeeper, apivorous
+  - definition: "store, like bees"; shared words: ['bee']; semantic links: [('place', 'like', 0.54), ('keep', 'like', 0.64)]
+- **a device for measuring how hot something is** -> expected `thermometer`  (TF-IDF rank: 11, GloVe-IDF rank: 9)
+  - TF-IDF top 5: heatable, timepiece, horologe, timekeeper, algometer
+  - GloVe-IDF top 5: timepiece, horologe, timekeeper, imprint, tensiometer
+  - definition: "measuring instrument for measuring temperature"; shared words: ['measure']; semantic links: [('device', 'instrument', 0.57), ('hot', 'temperature', 0.52)]
+- **an animal that only eats plants** -> expected `herbivore`  (TF-IDF rank: 76, GloVe-IDF rank: 9)
+  - TF-IDF top 5: fare, carnivorous, culture, phytophagic, phytophagous
+  - GloVe-IDF top 5: carnivorous, phytophagic, phytophagous, phytophilous, omnivorous
+  - definition: "any animal that feeds chiefly on grass and other plants"; shared words: ['animal', 'plant']; semantic links: [('eat', 'feed', 0.65)]
+- **a huge spinning storm over the sea** -> expected `cyclone`/`hurricane`/`storm`/`tornado`/`typhoon`  (TF-IDF rank: None, GloVe-IDF rank: 8)
+  - TF-IDF top 5: blow, overseas, oversea, whirl, twirl
+  - GloVe-IDF top 5: billow, surge, roll, roller, firestorm
+  - definition: "a severe tropical cyclone usually with heavy rains and winds moving a 73-136 knots (12 on the Beaufort scale)"; shared words: none; semantic links: [('huge', 'heavy', 0.58), ('storm', 'cyclone', 0.73)]
+- **a green spot with water in the middle of a desert** -> expected `oasis`  (TF-IDF rank: 26, GloVe-IDF rank: 6)
+  - TF-IDF top 5: patchily, speck, pinpoint, bespot, semidesert
+  - GloVe-IDF top 5: maravilla, bigeye, tilefish, amberbell, shore
+  - definition: "a fertile tract in a desert (where the water table approaches the surface)"; shared words: ['desert', 'water']; semantic links: [('green', 'water', 0.46), ('spot', 'table', 0.52), ('middle', 'approach', 0.47)]
+- **the person who commands a ship** -> expected `captain`/`master`/`skipper`  (TF-IDF rank: 11, GloVe-IDF rank: 1)
+  - TF-IDF top 5: forbid, prohibit, proscribe, disallow, veto
+  - GloVe-IDF top 5: captain, skipper, company, master, boarder
+  - definition: "the naval officer in command of a military ship"; shared words: ['command', 'ship']; semantic links: none
+- **the meal you eat around noon** -> expected `lunch`/`luncheon`/`midday`/`tiffin`  (TF-IDF rank: 38, GloVe-IDF rank: 3)
+  - TF-IDF top 5: postmeridian, antemeridian, meridian, nosher, snacker
+  - GloVe-IDF top 5: breakfast, brunch, lunch, luncheon, dejeuner
+  - definition: "a midday meal"; shared words: ['meal']; semantic links: [('eat', 'meal', 0.68), ('noon', 'midday', 0.77)]
+- **soft white flakes falling from the sky in winter** -> expected `snow`/`snowflake`  (TF-IDF rank: 63, GloVe-IDF rank: 2)
+  - TF-IDF top 5: skyward, skywards, flakey, flaky, celestial
+  - GloVe-IDF top 5: snowy, snow, pedwood, caimitillo, satinleaf
+  - definition: "fall as snow"; shared words: ['fall']; semantic links: [('sky', 'snow', 0.47), ('winter', 'snow', 0.66)]
+- **a wise and respected teacher** -> expected `guru`/`master`/`mentor`/`sage`  (TF-IDF rank: 36, GloVe-IDF rank: 9)
+  - TF-IDF top 5: wisely, sagely, teachership, swami, observe
+  - GloVe-IDF top 5: demonstrator, learner, scholar, assimilator, teachership
+  - definition: "serve as a teacher or trusted counselor"; shared words: ['teacher']; semantic links: [('respect', 'trust', 0.54)]
+- **someone who writes books** -> expected `author`/`novelist`/`writer`  (TF-IDF rank: 22, GloVe-IDF rank: 9)
+  - TF-IDF top 5: logbook, flick, flip, leaf, riff
+  - GloVe-IDF top 5: contribution, matter, flick, flip, leaf
+  - definition: "writes (books or stories or articles or the like) professionally (for pay)"; shared words: ['book', 'write']; semantic links: none
+- **someone who travels to a sacred place** -> expected `hajji`/`pilgrim`  (TF-IDF rank: 37, GloVe-IDF rank: 9)
+  - TF-IDF top 5: journey, journeying, pilgrimage, itinerate, itinerant
+  - GloVe-IDF top 5: pilgrimage, holy, sanctum, enshrine, saint
+  - definition: "someone who journeys to a sacred place as an act of religious devotion"; shared words: ['place', 'sacred']; semantic links: [('travel', 'journey', 0.55)]
+- **having almost no money at all** -> expected `broke`/`destitute`/`impoverished`/`needy`/`penniless`/`poor`/`skint`  (TF-IDF rank: 98, GloVe-IDF rank: 8)
+  - TF-IDF top 5: moneyless, topless, bottomless, poverty, impoverishment
+  - GloVe-IDF top 5: moneyless, poverty, impoverishment, poorness, topless
+  - definition: "not having enough money to pay for necessities"; shared words: ['have', 'money']; semantic links: [('no', 'not', 0.84)]
+- **a very hard clear precious gemstone** -> expected `diamond`  (TF-IDF rank: None, GloVe-IDF rank: 3)
+  - TF-IDF top 5: semiprecious, brighten, sapphire, cloud, clarifying
+  - GloVe-IDF top 5: semiprecious, ruby, diamond, sapphire, nugget
+  - definition: "a transparent piece of diamond that has been cut and polished and is valued as a precious gem"; shared words: ['precious']; semantic links: [('hard', 'cut', 0.51), ('clear', 'cut', 0.46), ('gemstone', 'gem', 0.6)]
+- **a place where books are lent out** -> expected `library`  (TF-IDF rank: 55, GloVe-IDF rank: 1)
+  - TF-IDF top 5: paintable, flavor, flavour, season, lendable
+  - GloVe-IDF top 5: library, deaccession, continuation, sequel, flick
+  - definition: "a collection of literary documents or records kept for reference or borrowing"; shared words: none; semantic links: [('place', 'keep', 0.57), ('book', 'collection', 0.67), ('lend', 'borrow', 0.74)]
+
+## TF-IDF finds it, embeddings miss (7 queries)
+
+- **a person who eats no meat** -> expected `vegetarian`  (TF-IDF rank: 2, GloVe-IDF rank: 23)
+  - TF-IDF top 5: fare, vegetarian, omnivore, nobody, cipher
+  - GloVe-IDF top 5: omnivore, meal, repast, medium, intake
+- **to leave someone or something for good** -> expected `abandon`/`desert`/`forsake`/`leave`  (TF-IDF rank: 2, GloVe-IDF rank: None)
+  - TF-IDF top 5: have, abandon, empty, vacate, start
+  - GloVe-IDF top 5: reciprocal, mutual, incompetent, unskilled, avoid
+- **to make pain less severe** -> expected `alleviate`/`ease`/`lessen`/`mitigate`/`relieve`/`soothe`  (TF-IDF rank: 9, GloVe-IDF rank: None)
+  - TF-IDF top 5: throe, raging, harsh, painfully, sorely
+  - GloVe-IDF top 5: afflict, smite, agony, torment, torture
+- **so hungry you could eat anything** -> expected `famished`/`ravenous`/`starved`/`starving`  (TF-IDF rank: 4, GloVe-IDF rank: 11)
+  - TF-IDF top 5: hungrily, ravenously, esurient, famished, ravenous
+  - GloVe-IDF top 5: starve, famish, hunger, hungrily, ravenously
+- **a person who flies airplanes** -> expected `airman`/`aviator`/`flier`/`pilot`  (TF-IDF rank: 7, GloVe-IDF rank: 19)
+  - TF-IDF top 5: deplane, overfly, tumble, whirl, astern
+  - GloVe-IDF top 5: jet, amphibology, amphiboly, sailplane, soar
+- **someone who cuts hair** -> expected `barber`/`hairdresser`  (TF-IDF rank: 8, GloVe-IDF rank: 17)
+  - TF-IDF top 5: haircut, sever, discerp, lop, trisect
+  - GloVe-IDF top 5: shaved, shaven, haircut, haircare, hairdressing
+- **the study of birds** -> expected `ornithology`  (TF-IDF rank: 2, GloVe-IDF rank: 13)
+  - TF-IDF top 5: ornithologist, ornithology, band, ring, flock
+  - GloVe-IDF top 5: birdwatch, birder, band, ring, hatchling
+
+## Both miss (57 queries)
+
+- **fear of being trapped in small spaces** -> expected `claustrophobia`  (TF-IDF rank: 18, GloVe-IDF rank: 48)
+  - TF-IDF top 5: fearfully, agoraphobia, snare, ensnare, entrap
+  - GloVe-IDF top 5: agoraphobia, distance, mat, bait, decoy
+- **a doctor who treats children** -> expected `paediatrician`/`pediatrician`/`pediatrist`  (TF-IDF rank: None, GloVe-IDF rank: 49)
+  - TF-IDF top 5: sprog, sire, beget, father, generate
+  - GloVe-IDF top 5: paediatric, pediatric, nurse, prescription, oculist
+- **someone who walks while asleep** -> expected `noctambulist`/`sleepwalker`/`somnambulist`  (TF-IDF rank: 37, GloVe-IDF rank: 12)
+  - TF-IDF top 5: noctambulation, noctambulism, sleepwalking, somnambulation, somnambulism
+  - GloVe-IDF top 5: noctambulation, noctambulism, sleepwalking, somnambulation, somnambulism
+- **the study of ancient remains and tools of past people** -> expected `archaeology`/`archeology`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: bygone, gone, bypast, departed, foregone
+  - GloVe-IDF top 5: anciently, historicalness, explorer, adventurer, ancients
+- **a word that means the same as another** -> expected `synonym`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: lexically, polysemant, logomachy, opposite, antonym
+  - GloVe-IDF top 5: lexically, polysemant, logomachy, opposite, antonym
+- **an instrument for viewing very tiny things** -> expected `microscope`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: forth, viewpoint, standpoint, stand, finely
+  - GloVe-IDF top 5: heliometer, finely, miniaturist, nub, stub
+- **an instrument for viewing faraway stars** -> expected `telescope`  (TF-IDF rank: None, GloVe-IDF rank: 46)
+  - TF-IDF top 5: interstellar, forth, starlet, starlike, starlight
+  - GloVe-IDF top 5: farther, starless, primary, apex, deep
+- **a person who fixes leaking taps and pipes** -> expected `plumber`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: bilge, drippy, leakproof, seeping, oozing
+  - GloVe-IDF top 5: bilge, drippy, fill, leakproof, drain
+- **a feeling of great fear** -> expected `dread`/`fright`/`horror`/`panic`/`terror`  (TF-IDF rank: 12, GloVe-IDF rank: None)
+  - TF-IDF top 5: feelingly, bravery, fearlessness, fearfully, shyness
+  - GloVe-IDF top 5: feelingly, bravery, fearlessness, undesiring, undesirous
+- **completely worn out from work** -> expected `exhausted`/`fatigued`/`spent`/`tired`/`weary`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: exhaust, beat, tucker, brim, evacuate
+  - GloVe-IDF top 5: exhaust, beat, tucker, unexhausted, unwearable
+- **someone who hates spending money** -> expected `miser`/`niggard`/`scrooge`/`skinflint`/`tightwad`  (TF-IDF rank: 95, GloVe-IDF rank: None)
+  - TF-IDF top 5: hater, expenditure, outgo, outlay, go
+  - GloVe-IDF top 5: scattergood, spender, spendthrift, expenditure, outgo
+- **someone who will not stop chatting** -> expected `chatterbox`/`garrulous`/`loquacious`/`talkative`/`talker`  (TF-IDF rank: None, GloVe-IDF rank: 18)
+  - TF-IDF top 5: close, cessation, surcease, unstoppable, stoppage
+  - GloVe-IDF top 5: interlocutor, pouch, cookie, chatroom, call
+- **good at doing lots of different things** -> expected `adaptable`/`versatile`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: beneficent, change, material, incompetent, unskilled
+  - GloVe-IDF top 5: material, approval, inventor, artificer, discoverer
+- **wanting what another person has** -> expected `covetousness`/`envious`/`envy`/`jealous`/`jealousy`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: like, needer, wanter, undesirable, unwanted
+  - GloVe-IDF top 5: needer, wanter, undesirable, unwanted, like
+- **to make something easier to understand** -> expected `clarify`/`clear`/`elucidate`/`explain`/`simplify`  (TF-IDF rank: 27, GloVe-IDF rank: None)
+  - TF-IDF top 5: facilitate, ease, alleviate, facilitator, edify
+  - GloVe-IDF top 5: facilitate, ease, alleviate, friendly, unfriendly
+- **to move quietly so nobody notices** -> expected `creep`/`slink`/`sneak`/`steal`/`tiptoe`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: unnoticed, snicker, snigger, doggo, post
+  - GloVe-IDF top 5: unnoticed, noticer, noticeable, snicker, snigger
+- **to look at something very quickly** -> expected `glance`/`glimpse`/`peek`/`peep`  (TF-IDF rank: 52, GloVe-IDF rank: None)
+  - TF-IDF top 5: whisk, zoom, whizz, faster, quicker
+  - GloVe-IDF top 5: lance, faster, quicker, fastest, quickest
+- **a sudden short burst of wind** -> expected `blast`/`gust`/`puff`/`squall`  (TF-IDF rank: 21, GloVe-IDF rank: 83)
+  - TF-IDF top 5: rush, flare, irruption, raid, foray
+  - GloVe-IDF top 5: rush, plump, collapse, snap, spray
+- **the ground suddenly shaking** -> expected `earthquake`/`quake`/`temblor`/`tremor`  (TF-IDF rank: 60, GloVe-IDF rank: 54)
+  - TF-IDF top 5: chop, shaker, start, commence, build
+  - GloVe-IDF top 5: drop, shudder, shiver, land, strand
+- **a mountain that throws out hot molten rock** -> expected `volcano`  (TF-IDF rank: 94, GloVe-IDF rank: None)
+  - TF-IDF top 5: thrust, intrusive, magma, unmelted, intrusion
+  - GloVe-IDF top 5: avalanche, landslide, landslip, piton, meltwater
+- **a piece of land with water all around** -> expected `island`/`isle`  (TF-IDF rank: 67, GloVe-IDF rank: 96)
+  - TF-IDF top 5: landward, landwards, onshore, hydroplane, seaplane
+  - GloVe-IDF top 5: shore, cape, ness, sea, peninsula
+- **a huge dry sandy area with hardly any rain** -> expected `desert`  (TF-IDF rank: None, GloVe-IDF rank: 30)
+  - TF-IDF top 5: selva, rainless, hard, arenaceous, sandlike
+  - GloVe-IDF top 5: shortgrass, rainless, bigeye, wade, flood
+- **a narrow track through the woods** -> expected `footpath`/`path`/`track`/`trail`  (TF-IDF rank: 20, GloVe-IDF rank: None)
+  - TF-IDF top 5: tracked, thin, slender, strait, tracker
+  - GloVe-IDF top 5: ski, skid, aisle, lane, hatch
+- **the front end of a boat** -> expected `bow`/`prow`/`stem`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: overside, lift, raise, passing, terminally
+  - GloVe-IDF top 5: overside, oarsman, rower, yawl, pull
+- **a vessel that travels underwater** -> expected `sub`/`submarine`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: diver, frogman, boat, accompany, ascend
+  - GloVe-IDF top 5: minisub, minisubmarine, boat, bathyscape, bathyscaph
+- **a sport where two people fight with thin swords** -> expected `fencing`  (TF-IDF rank: 12, GloVe-IDF rank: 56)
+  - TF-IDF top 5: fence, boxer, pugilist, fighter, battler
+  - GloVe-IDF top 5: boxer, pugilist, scrappy, wrestling, grappling
+- **an official count of everyone living in a country** -> expected `census`  (TF-IDF rank: 78, GloVe-IDF rank: None)
+  - TF-IDF top 5: recount, countable, denumerable, enumerable, numerable
+  - GloVe-IDF top 5: peasant, bucolic, provincial, compatriot, nation
+- **money paid monthly to someone who has stopped working** -> expected `annuity`/`pension`  (TF-IDF rank: None, GloVe-IDF rank: 73)
+  - TF-IDF top 5: cashed, remunerative, compensable, paying, salaried
+  - GloVe-IDF top 5: payday, payee, payer, remunerator, annually
+- **a document that says who gets your belongings after you die** -> expected `testament`/`will`  (TF-IDF rank: 61, GloVe-IDF rank: 25)
+  - TF-IDF top 5: pilfer, abstract, lift, purloin, cabbage
+  - GloVe-IDF top 5: necrology, extinct, nonextant, disclose, reveal
+- **money or help given freely to those in need** -> expected `alms`/`charity`/`donation`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: handsome, liberal, big, bighearted, bounteous
+  - GloVe-IDF top 5: helplessness, handsome, liberal, big, bighearted
+- **someone who is just starting to learn** -> expected `beginner`/`learner`/`neophyte`/`newbie`/`novice`/`rookie`/`tyro`  (TF-IDF rank: 69, GloVe-IDF rank: None)
+  - TF-IDF top 5: precisely, exactly, unlearned, jumpstart, beginning
+  - GloVe-IDF top 5: future, futurity, hereafter, sequence, succession
+- **a person who puts money into a company to earn profit** -> expected `backer`/`capitalist`/`investor`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: together, consort, run, job, business
+  - GloVe-IDF top 5: payslip, partnership, pile, bundle, megabucks
+- **the scientific study of how the body works** -> expected `anatomy`/`biology`/`physiology`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: linguistics, neuroscience, metrology, linguistic, spelaeology
+  - GloVe-IDF top 5: craniology, ethnography, linguistics, sociobiology, annals
+- **the scientific study of the mind and behaviour** -> expected `psychology`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: linguistics, neuroscience, metrology, linguistic, spelaeology
+  - GloVe-IDF top 5: biologism, sociobiology, neuroscience, scientifically, phonetic
+- **a short funny story** -> expected `anecdote`/`gag`/`jest`/`joke`  (TF-IDF rank: 19, GloVe-IDF rank: 16)
+  - TF-IDF top 5: killing, sidesplitting, humor, humour, multistorey
+  - GloVe-IDF top 5: comedy, plot, killing, sidesplitting, howler
+- **the dot at the end of a sentence** -> expected `period`  (TF-IDF rank: 37, GloVe-IDF rank: 53)
+  - TF-IDF top 5: sentential, dotted, flecked, speckled, specked
+  - GloVe-IDF top 5: anadiplosis, reduplication, adjunct, unalterable, quad
+- **a book that explains what words mean** -> expected `dictionary`/`lexicon`  (TF-IDF rank: 62, GloVe-IDF rank: None)
+  - TF-IDF top 5: lexically, polysemant, unexplained, expositor, expounder
+  - GloVe-IDF top 5: nonlexical, wordbook, logomachy, apply, verbatim
+- **a person who paints pictures** -> expected `artist`/`painter`  (TF-IDF rank: 25, GloVe-IDF rank: 52)
+  - TF-IDF top 5: painting, show, depict, render, miniaturist
+  - GloVe-IDF top 5: painting, miniaturist, undepicted, unpictured, likeness
+- **someone who takes pictures with a camera as a job** -> expected `cameraman`/`photographer`  (TF-IDF rank: 41, GloVe-IDF rank: 44)
+  - TF-IDF top 5: show, depict, render, undepicted, unpictured
+  - GloVe-IDF top 5: clapperboard, undepicted, unpictured, grip, snapshot
+- **a small buzzing insect that bites and sucks blood** -> expected `gnat`/`midge`/`mosquito`  (TF-IDF rank: 28, GloVe-IDF rank: 21)
+  - TF-IDF top 5: aphid, punkey, punkie, punky, absorb
+  - GloVe-IDF top 5: munch, leafhopper, aphid, reduviid, comforter
+- **a bird that hunts at night** -> expected `owl`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: nocturnally, jacklight, fowler, midnight, nightwork
+  - GloVe-IDF top 5: fowler, jacklight, lift, drive, quail
+- **a huge grey animal with a long trunk and tusks** -> expected `elephant`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: detusk, proboscidean, proboscidian, tusked, serratus
+  - GloVe-IDF top 5: proboscidean, proboscidian, guenon, heron, marblewood
+- **a slow reptile with a hard shell** -> expected `tortoise`/`turtle`  (TF-IDF rank: 11, GloVe-IDF rank: None)
+  - TF-IDF top 5: rallentando, clam, nut, crustaceous, cynodont
+  - GloVe-IDF top 5: clam, escallop, scallop, scollop, gannet
+- **a baby cat** -> expected `kitten`/`kitty`  (TF-IDF rank: 17, GloVe-IDF rank: 20)
+  - TF-IDF top 5: feline, clowder, mew, meow, babyish
+  - GloVe-IDF top 5: mew, meow, birth, feline, tom
+- **sad because you miss your home** -> expected `homesick`/`homesickness`/`nostalgia`  (TF-IDF rank: 36, GloVe-IDF rank: None)
+  - TF-IDF top 5: sadness, sorrow, sorrowfulness, homeward, homewards
+  - GloVe-IDF top 5: sadden, regret, sadness, sorrow, sorrowfulness
+- **a strong urge to travel and see the world** -> expected `wanderlust`  (TF-IDF rank: 34, GloVe-IDF rank: None)
+  - TF-IDF top 5: itch, spoil, accompany, ascend, head
+  - GloVe-IDF top 5: itch, spoil, associate, consociate, follow
+- **rule by one all-powerful leader** -> expected `autarchy`/`autocracy`/`despotism`/`dictatorship`/`tyranny`  (TF-IDF rank: None, GloVe-IDF rank: 14)
+  - TF-IDF top 5: dynasty, spearhead, duce, stiff, puissant
+  - GloVe-IDF top 5: dynasty, spearhead, duce, kingmaker, backbencher
+- **government by the people** -> expected `democracy`  (TF-IDF rank: 34, GloVe-IDF rank: None)
+  - TF-IDF top 5: governmentally, assemble, gather, distribute, popularly
+  - GloVe-IDF top 5: governmentally, power, office, politically, municipality
+- **getting better after an illness** -> expected `convalescence`/`healing`/`recovery`/`recuperation`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: licked, return, restoration, regaining, restitution
+  - GloVe-IDF top 5: licked, soothe, retrogressive, retrograde, uninterested
+- **someone who always expects good things** -> expected `optimist`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: naturally, course, expectable, disorder, disorderliness
+  - GloVe-IDF top 5: justifiably, inventor, artificer, discoverer, incompetent
+- **too proud of yourself** -> expected `arrogant`/`cocky`/`conceited`/`proud`/`smug`/`vain`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: pride, congratulate, plume, overproud, beaming
+  - GloVe-IDF top 5: pride, congratulate, plume, cavalierly, disdainfully
+- **refusing to change your mind** -> expected `bullheaded`/`headstrong`/`inflexible`/`intransigent`/`obstinate`/`pigheaded`/`stubborn`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: rethink, recall, echo, concern, interest
+  - GloVe-IDF top 5: rethink, interest, sake, bounce, needer
+- **you cannot see through it** -> expected `opaque`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: impossible, lose, mislay, misplace, lock
+  - GloVe-IDF top 5: impossible, lose, mislay, misplace, holism
+- **to keep trying even when it is hard** -> expected `persevere`/`persist`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: hustle, attempter, essayer, trier, test
+  - GloVe-IDF top 5: hustle, test, trial, tryout, attempter
+- **to wander with no goal** -> expected `drift`/`meander`/`ramble`/`roam`/`rove`/`stray`/`wander`  (TF-IDF rank: 14, GloVe-IDF rank: 32)
+  - TF-IDF top 5: peregrination, perambulate, forage, kick, ranging
+  - GloVe-IDF top 5: perambulate, kick, directness, straightness, direct
+- **an unmarried man** -> expected `bachelor`  (TF-IDF rank: None, GloVe-IDF rank: None)
+  - TF-IDF top 5: bachelorhood, celibacy, damoiselle, damosel, damozel
+  - GloVe-IDF top 5: damoiselle, damosel, damozel, damsel, demoiselle
+- **an expert who predicts the future from the stars** -> expected `astrologer`  (TF-IDF rank: 13, GloVe-IDF rank: 38)
+  - TF-IDF top 5: fantast, futurist, anticipation, prediction, prevision
+  - GloVe-IDF top 5: fantast, futurist, anticipation, prediction, prevision

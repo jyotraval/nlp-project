@@ -1,0 +1,6 @@
+Paired bootstrap on the 55 TEST queries, mode = gloss, 2000 resamples
+
+hybrid - tfidf     Recall@10  +0.127  95% CI [+0.018, +0.236]
+hybrid - glove_idf Recall@10  +0.073  95% CI [-0.036, +0.182]
+hybrid - tfidf     MRR        +0.021  95% CI [-0.005, +0.050]
+hybrid - glove_idf MRR        -0.005  95% CI [-0.059, +0.046]
