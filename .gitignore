@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cache data (large GloVe embeddings and WordNet pickle files)
+.cache/
+*.npz
+*.pkl
+*.gz
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

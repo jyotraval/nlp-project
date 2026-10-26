@@ -36,7 +36,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
 - **the meal you eat around noon** -> expected `lunch`/`luncheon`/`midday`/`tiffin`  (TF-IDF rank: 38, GloVe-IDF rank: 3)
   - TF-IDF top 5: postmeridian, antemeridian, meridian, nosher, snacker
   - GloVe-IDF top 5: breakfast, brunch, lunch, luncheon, dejeuner
-  - definition: "a midday meal"; shared words: ['meal']; semantic links: [('eat', 'meal', 0.68), ('noon', 'midday', 0.77)]
+  - definition: "take the midday meal"; shared words: ['meal']; semantic links: [('eat', 'meal', 0.68), ('noon', 'midday', 0.77)]
 - **soft white flakes falling from the sky in winter** -> expected `snow`/`snowflake`  (TF-IDF rank: 63, GloVe-IDF rank: 2)
   - TF-IDF top 5: skyward, skywards, flakey, flaky, celestial
   - GloVe-IDF top 5: snowy, snow, pedwood, caimitillo, satinleaf
@@ -54,7 +54,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - GloVe-IDF top 5: pilgrimage, holy, sanctum, enshrine, saint
   - definition: "someone who journeys to a sacred place as an act of religious devotion"; shared words: ['place', 'sacred']; semantic links: [('travel', 'journey', 0.55)]
 - **having almost no money at all** -> expected `broke`/`destitute`/`impoverished`/`needy`/`penniless`/`poor`/`skint`  (TF-IDF rank: 98, GloVe-IDF rank: 8)
-  - TF-IDF top 5: moneyless, topless, bottomless, poverty, impoverishment
+  - TF-IDF top 5: moneyless, bottomless, topless, poverty, impoverishment
   - GloVe-IDF top 5: moneyless, poverty, impoverishment, poorness, topless
   - definition: "not having enough money to pay for necessities"; shared words: ['have', 'money']; semantic links: [('no', 'not', 0.84)]
 - **a very hard clear precious gemstone** -> expected `diamond`  (TF-IDF rank: None, GloVe-IDF rank: 3)
@@ -74,14 +74,14 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
 - **to leave someone or something for good** -> expected `abandon`/`desert`/`forsake`/`leave`  (TF-IDF rank: 2, GloVe-IDF rank: None)
   - TF-IDF top 5: have, abandon, empty, vacate, start
   - GloVe-IDF top 5: reciprocal, mutual, incompetent, unskilled, avoid
-- **to make pain less severe** -> expected `alleviate`/`ease`/`lessen`/`mitigate`/`relieve`/`soothe`  (TF-IDF rank: 9, GloVe-IDF rank: None)
-  - TF-IDF top 5: throe, raging, harsh, painfully, sorely
+- **to make pain less severe** -> expected `alleviate`/`ease`/`lessen`/`mitigate`/`relieve`/`soothe`  (TF-IDF rank: 6, GloVe-IDF rank: None)
+  - TF-IDF top 5: throe, harsh, raging, painfully, sorely
   - GloVe-IDF top 5: afflict, smite, agony, torment, torture
 - **so hungry you could eat anything** -> expected `famished`/`ravenous`/`starved`/`starving`  (TF-IDF rank: 4, GloVe-IDF rank: 11)
   - TF-IDF top 5: hungrily, ravenously, esurient, famished, ravenous
   - GloVe-IDF top 5: starve, famish, hunger, hungrily, ravenously
 - **a person who flies airplanes** -> expected `airman`/`aviator`/`flier`/`pilot`  (TF-IDF rank: 7, GloVe-IDF rank: 19)
-  - TF-IDF top 5: deplane, overfly, tumble, whirl, astern
+  - TF-IDF top 5: deplane, tumble, whirl, overfly, astern
   - GloVe-IDF top 5: jet, amphibology, amphiboly, sailplane, soar
 - **someone who cuts hair** -> expected `barber`/`hairdresser`  (TF-IDF rank: 8, GloVe-IDF rank: 17)
   - TF-IDF top 5: haircut, sever, discerp, lop, trisect
@@ -98,11 +98,11 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
 - **a doctor who treats children** -> expected `paediatrician`/`pediatrician`/`pediatrist`  (TF-IDF rank: None, GloVe-IDF rank: 49)
   - TF-IDF top 5: sprog, sire, beget, father, generate
   - GloVe-IDF top 5: paediatric, pediatric, nurse, prescription, oculist
-- **someone who walks while asleep** -> expected `noctambulist`/`sleepwalker`/`somnambulist`  (TF-IDF rank: 37, GloVe-IDF rank: 12)
+- **someone who walks while asleep** -> expected `noctambulist`/`sleepwalker`/`somnambulist`  (TF-IDF rank: 37, GloVe-IDF rank: 14)
   - TF-IDF top 5: noctambulation, noctambulism, sleepwalking, somnambulation, somnambulism
   - GloVe-IDF top 5: noctambulation, noctambulism, sleepwalking, somnambulation, somnambulism
 - **the study of ancient remains and tools of past people** -> expected `archaeology`/`archeology`  (TF-IDF rank: None, GloVe-IDF rank: None)
-  - TF-IDF top 5: bygone, gone, bypast, departed, foregone
+  - TF-IDF top 5: pass, surpass, bygone, gone, bypast
   - GloVe-IDF top 5: anciently, historicalness, explorer, adventurer, ancients
 - **a word that means the same as another** -> expected `synonym`  (TF-IDF rank: None, GloVe-IDF rank: None)
   - TF-IDF top 5: lexically, polysemant, logomachy, opposite, antonym
@@ -142,7 +142,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - GloVe-IDF top 5: unnoticed, noticer, noticeable, snicker, snigger
 - **to look at something very quickly** -> expected `glance`/`glimpse`/`peek`/`peep`  (TF-IDF rank: 52, GloVe-IDF rank: None)
   - TF-IDF top 5: whisk, zoom, whizz, faster, quicker
-  - GloVe-IDF top 5: lance, faster, quicker, fastest, quickest
+  - GloVe-IDF top 5: lance, zoom, whizz, faster, quicker
 - **a sudden short burst of wind** -> expected `blast`/`gust`/`puff`/`squall`  (TF-IDF rank: 21, GloVe-IDF rank: 83)
   - TF-IDF top 5: rush, flare, irruption, raid, foray
   - GloVe-IDF top 5: rush, plump, collapse, snap, spray
@@ -159,7 +159,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - TF-IDF top 5: selva, rainless, hard, arenaceous, sandlike
   - GloVe-IDF top 5: shortgrass, rainless, bigeye, wade, flood
 - **a narrow track through the woods** -> expected `footpath`/`path`/`track`/`trail`  (TF-IDF rank: 20, GloVe-IDF rank: None)
-  - TF-IDF top 5: tracked, thin, slender, strait, tracker
+  - TF-IDF top 5: tracked, strait, thin, slender, tracker
   - GloVe-IDF top 5: ski, skid, aisle, lane, hatch
 - **the front end of a boat** -> expected `bow`/`prow`/`stem`  (TF-IDF rank: None, GloVe-IDF rank: None)
   - TF-IDF top 5: overside, lift, raise, passing, terminally
@@ -172,9 +172,9 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - GloVe-IDF top 5: boxer, pugilist, scrappy, wrestling, grappling
 - **an official count of everyone living in a country** -> expected `census`  (TF-IDF rank: 78, GloVe-IDF rank: None)
   - TF-IDF top 5: recount, countable, denumerable, enumerable, numerable
-  - GloVe-IDF top 5: peasant, bucolic, provincial, compatriot, nation
+  - GloVe-IDF top 5: compatriot, peasant, bucolic, provincial, nation
 - **money paid monthly to someone who has stopped working** -> expected `annuity`/`pension`  (TF-IDF rank: None, GloVe-IDF rank: 73)
-  - TF-IDF top 5: cashed, remunerative, compensable, paying, salaried
+  - TF-IDF top 5: remunerative, compensable, paying, salaried, stipendiary
   - GloVe-IDF top 5: payday, payee, payer, remunerator, annually
 - **a document that says who gets your belongings after you die** -> expected `testament`/`will`  (TF-IDF rank: 61, GloVe-IDF rank: 25)
   - TF-IDF top 5: pilfer, abstract, lift, purloin, cabbage
@@ -186,7 +186,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - TF-IDF top 5: precisely, exactly, unlearned, jumpstart, beginning
   - GloVe-IDF top 5: future, futurity, hereafter, sequence, succession
 - **a person who puts money into a company to earn profit** -> expected `backer`/`capitalist`/`investor`  (TF-IDF rank: None, GloVe-IDF rank: None)
-  - TF-IDF top 5: together, consort, run, job, business
+  - TF-IDF top 5: consort, run, together, job, business
   - GloVe-IDF top 5: payslip, partnership, pile, bundle, megabucks
 - **the scientific study of how the body works** -> expected `anatomy`/`biology`/`physiology`  (TF-IDF rank: None, GloVe-IDF rank: None)
   - TF-IDF top 5: linguistics, neuroscience, metrology, linguistic, spelaeology
@@ -232,7 +232,7 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - GloVe-IDF top 5: itch, spoil, associate, consociate, follow
 - **rule by one all-powerful leader** -> expected `autarchy`/`autocracy`/`despotism`/`dictatorship`/`tyranny`  (TF-IDF rank: None, GloVe-IDF rank: 14)
   - TF-IDF top 5: dynasty, spearhead, duce, stiff, puissant
-  - GloVe-IDF top 5: dynasty, spearhead, duce, kingmaker, backbencher
+  - GloVe-IDF top 5: dynasty, duce, spearhead, kingmaker, backbencher
 - **government by the people** -> expected `democracy`  (TF-IDF rank: 34, GloVe-IDF rank: None)
   - TF-IDF top 5: governmentally, assemble, gather, distribute, popularly
   - GloVe-IDF top 5: governmentally, power, office, politically, municipality
@@ -246,14 +246,14 @@ Computed on all queries with the best configuration. A method 'finds' a query wh
   - TF-IDF top 5: pride, congratulate, plume, overproud, beaming
   - GloVe-IDF top 5: pride, congratulate, plume, cavalierly, disdainfully
 - **refusing to change your mind** -> expected `bullheaded`/`headstrong`/`inflexible`/`intransigent`/`obstinate`/`pigheaded`/`stubborn`  (TF-IDF rank: None, GloVe-IDF rank: None)
-  - TF-IDF top 5: rethink, recall, echo, concern, interest
+  - TF-IDF top 5: rethink, concern, interest, occupy, worry
   - GloVe-IDF top 5: rethink, interest, sake, bounce, needer
 - **you cannot see through it** -> expected `opaque`  (TF-IDF rank: None, GloVe-IDF rank: None)
   - TF-IDF top 5: impossible, lose, mislay, misplace, lock
   - GloVe-IDF top 5: impossible, lose, mislay, misplace, holism
 - **to keep trying even when it is hard** -> expected `persevere`/`persist`  (TF-IDF rank: None, GloVe-IDF rank: None)
   - TF-IDF top 5: hustle, attempter, essayer, trier, test
-  - GloVe-IDF top 5: hustle, test, trial, tryout, attempter
+  - GloVe-IDF top 5: hustle, attempter, essayer, trier, test
 - **to wander with no goal** -> expected `drift`/`meander`/`ramble`/`roam`/`rove`/`stray`/`wander`  (TF-IDF rank: 14, GloVe-IDF rank: 32)
   - TF-IDF top 5: peregrination, perambulate, forage, kick, ranging
   - GloVe-IDF top 5: perambulate, kick, directness, straightness, direct
