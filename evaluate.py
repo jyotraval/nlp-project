@@ -11,6 +11,7 @@ Metrics (a query has several acceptable answers, e.g. synonyms; best one counts)
 
 Run:  python evaluate.py        (writes everything into results/)
 """
+import argparse
 import csv
 import json
 import random
@@ -106,14 +107,14 @@ def rank_queries(index, queries, method, weights=DEFAULT_WEIGHTS):
     return ranks
 
 
-def tune_weights(index, dev):
-    """Pick the hybrid weights with the best MRR on DEV. Ties go to the most even split."""
+def tune_weights(index, dev, metric="MRR"):
+    """Pick the hybrid weights with the best score on DEV. Ties go to the most even split."""
     scored = []
     for w in WEIGHT_GRID:
-        mrr = summarize(rank_queries(index, dev, "hybrid", w))["MRR"]
-        scored.append((round(mrr, 6), -max(w), w))
-    best_mrr, _, best_w = max(scored)
-    return best_w, best_mrr
+        score = summarize(rank_queries(index, dev, "hybrid", w))[metric]
+        scored.append((round(score, 6), -max(w), w))
+    best_score, _, best_w = max(scored)
+    return best_w, best_score
 
 
 # --------------------------------------------------------------------------- #
@@ -207,6 +208,11 @@ def write_wins_and_losses(index, path, queries):
 # Main
 # --------------------------------------------------------------------------- #
 def main():
+    parser = argparse.ArgumentParser(description="Evaluate reverse dictionary retrieval methods.")
+    parser.add_argument("--tune-metric", choices=["MRR", "Recall@10", "Recall@5", "Recall@1"],
+                        default="MRR", help="Metric on DEV used to tune hybrid weights (default: MRR)")
+    args = parser.parse_args()
+
     RESULTS.mkdir(exist_ok=True)
     glove = load_glove()
     indexes = {mode: build_index(glove, use_related) for mode, use_related in MODES.items()}
@@ -217,12 +223,12 @@ def main():
     print(f"{len(queries)} queries -> {len(dev)} dev / {len(test)} test")
 
     table, rows, per_query, test_ranks = {}, [], [], {}
-    best = {"mrr": -1}
+    best = {"score": -1}
     for mode, index in indexes.items():
-        weight, dev_mrr = tune_weights(index, dev)
-        print(f"[{mode}] hybrid weights tuned on dev (tfidf, glove_idf, headword) = {weight}")
-        if dev_mrr > best["mrr"]:
-            best = {"mrr": dev_mrr, "use_related": MODES[mode], "weights": list(weight), "mode": mode}
+        weight, dev_score = tune_weights(index, dev, metric=args.tune_metric)
+        print(f"[{mode}] hybrid weights tuned on dev {args.tune_metric} (tfidf, glove_idf, headword) = {weight}")
+        if dev_score > best["score"]:
+            best = {"score": dev_score, "use_related": MODES[mode], "weights": list(weight), "mode": mode}
         for method in METHODS:
             ranks = {"dev": rank_queries(index, dev, method, weight),
                      "test": rank_queries(index, test, method, weight)}
@@ -244,7 +250,7 @@ def main():
     chosen = indexes[best["mode"]]
     counts = write_wins_and_losses(chosen, RESULTS / "wins_and_losses.md", queries)
     params = {"use_related": best["use_related"], "weights": best["weights"],
-              "chosen_on": "dev MRR of the hybrid", "mode": best["mode"]}
+              "chosen_on": f"dev {args.tune_metric} of the hybrid", "mode": best["mode"]}
     (RESULTS / "best_params.json").write_text(json.dumps(params, indent=2))
 
     print("\nTEST results")

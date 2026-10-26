@@ -28,7 +28,7 @@ gloss,tfidf,dev,fear of foreigners,xenophobia,1
 gloss,tfidf,dev,an animal that only eats plants,herbivore,76
 gloss,tfidf,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
 gloss,tfidf,dev,someone who bakes bread for a living,baker,1
-gloss,tfidf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,9
+gloss,tfidf,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,6
 gloss,tfidf,dev,a book full of maps,atlas,1
 gloss,tfidf,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
 gloss,tfidf,dev,a place where bees are kept,apiary|beehive|hive,11
@@ -146,7 +146,7 @@ gloss,glove_avg,dev,the dot at the end of a sentence,period,3
 gloss,glove_avg,dev,a strong urge to travel and see the world,wanderlust,
 gloss,glove_avg,dev,a young cow,calf|heifer,1
 gloss,glove_avg,dev,a huge grey animal with a long trunk and tusks,elephant,
-gloss,glove_avg,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,6
+gloss,glove_avg,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,8
 gloss,glove_avg,dev,a mountain that throws out hot molten rock,volcano,
 gloss,glove_avg,dev,the study of birds,ornithology,4
 gloss,glove_avg,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
@@ -256,7 +256,7 @@ gloss,glove_idf,dev,the dot at the end of a sentence,period,53
 gloss,glove_idf,dev,a strong urge to travel and see the world,wanderlust,
 gloss,glove_idf,dev,a young cow,calf|heifer,1
 gloss,glove_idf,dev,a huge grey animal with a long trunk and tusks,elephant,
-gloss,glove_idf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,12
+gloss,glove_idf,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,14
 gloss,glove_idf,dev,a mountain that throws out hot molten rock,volcano,
 gloss,glove_idf,dev,the study of birds,ornithology,13
 gloss,glove_idf,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
@@ -441,113 +441,113 @@ gloss,headword,test,a word formed from the first letters of a phrase,acronym,
 gloss,headword,test,the belief that there is no god,atheism|disbelief,
 gloss,hybrid,dev,the scientific study of how the body works,anatomy|biology|physiology,
 gloss,hybrid,dev,a long poem about the deeds of a hero,epic|epos|saga,1
-gloss,hybrid,dev,someone who loves books,bibliophile|bookworm,1
+gloss,hybrid,dev,someone who loves books,bibliophile|bookworm,4
 gloss,hybrid,dev,the sweet sticky food bees make,honey,1
-gloss,hybrid,dev,an expert who predicts the future from the stars,astrologer,9
+gloss,hybrid,dev,an expert who predicts the future from the stars,astrologer,17
 gloss,hybrid,dev,a word that means the opposite,antonym,6
-gloss,hybrid,dev,money paid monthly to someone who has stopped working,annuity|pension,
+gloss,hybrid,dev,money paid monthly to someone who has stopped working,annuity|pension,81
 gloss,hybrid,dev,a book that explains what words mean,dictionary|lexicon,
-gloss,hybrid,dev,a baby dog,pup|puppy|whelp,2
+gloss,hybrid,dev,a baby dog,pup|puppy|whelp,1
 gloss,hybrid,dev,completely worn out from work,exhausted|fatigued|spent|tired|weary,
-gloss,hybrid,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,22
-gloss,hybrid,dev,a person who paints pictures,artist|painter,23
+gloss,hybrid,dev,having almost no money at all,broke|destitute|impoverished|needy|penniless|poor|skint,8
+gloss,hybrid,dev,a person who paints pictures,artist|painter,35
 gloss,hybrid,dev,good at doing lots of different things,adaptable|versatile,
-gloss,hybrid,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,38
+gloss,hybrid,dev,to make something easier to understand,clarify|clear|elucidate|explain|simplify,
 gloss,hybrid,dev,a long formal talk given to an audience,address|lecture|oration|sermon|speech,1
 gloss,hybrid,dev,money or help given freely to those in need,alms|charity|donation,
 gloss,hybrid,dev,the scientific study of the mind and behaviour,psychology,
 gloss,hybrid,dev,a journey to a holy place,hajj|pilgrimage,1
 gloss,hybrid,dev,an official count of everyone living in a country,census,
 gloss,hybrid,dev,a long pointed weapon you throw,dart|javelin|lance|spear,1
-gloss,hybrid,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,16
+gloss,hybrid,dev,the meal you eat around noon,lunch|luncheon|midday|tiffin,5
 gloss,hybrid,dev,the person who commands a ship,captain|master|skipper,1
-gloss,hybrid,dev,someone who travels to a sacred place,hajji|pilgrim,14
-gloss,hybrid,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,
-gloss,hybrid,dev,sad because you miss your home,homesick|homesickness|nostalgia,24
+gloss,hybrid,dev,someone who travels to a sacred place,hajji|pilgrim,13
+gloss,hybrid,dev,rule by one all-powerful leader,autarchy|autocracy|despotism|dictatorship|tyranny,25
+gloss,hybrid,dev,sad because you miss your home,homesick|homesickness|nostalgia,59
 gloss,hybrid,dev,fear of foreigners,xenophobia,1
-gloss,hybrid,dev,an animal that only eats plants,herbivore,14
+gloss,hybrid,dev,an animal that only eats plants,herbivore,10
 gloss,hybrid,dev,a person who can speak many languages,linguist|multilingual|polyglot,1
-gloss,hybrid,dev,someone who bakes bread for a living,baker,1
-gloss,hybrid,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,16
+gloss,hybrid,dev,someone who bakes bread for a living,baker,2
+gloss,hybrid,dev,to make pain less severe,alleviate|ease|lessen|mitigate|relieve|soothe,70
 gloss,hybrid,dev,a book full of maps,atlas,1
 gloss,hybrid,dev,to move quietly so nobody notices,creep|slink|sneak|steal|tiptoe,
-gloss,hybrid,dev,a place where bees are kept,apiary|beehive|hive,5
-gloss,hybrid,dev,the dot at the end of a sentence,period,29
-gloss,hybrid,dev,a strong urge to travel and see the world,wanderlust,45
+gloss,hybrid,dev,a place where bees are kept,apiary|beehive|hive,1
+gloss,hybrid,dev,the dot at the end of a sentence,period,42
+gloss,hybrid,dev,a strong urge to travel and see the world,wanderlust,
 gloss,hybrid,dev,a young cow,calf|heifer,1
 gloss,hybrid,dev,a huge grey animal with a long trunk and tusks,elephant,
-gloss,hybrid,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,23
-gloss,hybrid,dev,a mountain that throws out hot molten rock,volcano,64
-gloss,hybrid,dev,the study of birds,ornithology,7
+gloss,hybrid,dev,someone who walks while asleep,noctambulist|sleepwalker|somnambulist,18
+gloss,hybrid,dev,a mountain that throws out hot molten rock,volcano,85
+gloss,hybrid,dev,the study of birds,ornithology,9
 gloss,hybrid,dev,a person who puts money into a company to earn profit,backer|capitalist|investor,
 gloss,hybrid,dev,the study of insects,entomology,4
-gloss,hybrid,dev,a piece of land with water all around,island|isle,63
-gloss,hybrid,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,98
+gloss,hybrid,dev,a piece of land with water all around,island|isle,75
+gloss,hybrid,dev,someone who is just starting to learn,beginner|learner|neophyte|newbie|novice|rookie|tyro,
 gloss,hybrid,dev,to feel extreme dislike for,abhor|abominate|despise|detest|hate|loathe,6
 gloss,hybrid,dev,someone who always expects the worst,cynic|pessimist,1
-gloss,hybrid,dev,a word that takes the place of a noun like she or they,pronoun,1
-gloss,hybrid,dev,to leave someone or something for good,abandon|desert|forsake|leave,18
-gloss,hybrid,dev,an animal that hunts and eats other animals,carnivore|predator,6
-gloss,hybrid,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,87
-gloss,hybrid,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,43
-gloss,hybrid,dev,an instrument for viewing faraway stars,telescope,
+gloss,hybrid,dev,a word that takes the place of a noun like she or they,pronoun,2
+gloss,hybrid,dev,to leave someone or something for good,abandon|desert|forsake|leave,58
+gloss,hybrid,dev,an animal that hunts and eats other animals,carnivore|predator,5
+gloss,hybrid,dev,a huge spinning storm over the sea,cyclone|hurricane|storm|tornado|typhoon,18
+gloss,hybrid,dev,the ground suddenly shaking,earthquake|quake|temblor|tremor,47
+gloss,hybrid,dev,an instrument for viewing faraway stars,telescope,60
 gloss,hybrid,dev,a small buzzing insect that bites and sucks blood,gnat|midge|mosquito,15
-gloss,hybrid,dev,a scientist who studies stars and planets,astronomer|astrophysicist,48
+gloss,hybrid,dev,a scientist who studies stars and planets,astronomer|astrophysicist,11
 gloss,hybrid,dev,a feeling of intense happiness,bliss|elation|euphoria|happiness|joy,9
-gloss,hybrid,test,a person who eats no meat,vegetarian,3
-gloss,hybrid,test,to talk in a very soft voice,murmur|mutter|whisper,4
+gloss,hybrid,test,a person who eats no meat,vegetarian,10
+gloss,hybrid,test,to talk in a very soft voice,murmur|mutter|whisper,3
 gloss,hybrid,test,too proud of yourself,arrogant|cocky|conceited|proud|smug|vain,
 gloss,hybrid,test,the front end of a boat,bow|prow|stem,
 gloss,hybrid,test,a person who cannot sleep at night,insomniac,1
-gloss,hybrid,test,soft white flakes falling from the sky in winter,snow|snowflake,3
+gloss,hybrid,test,soft white flakes falling from the sky in winter,snow|snowflake,1
 gloss,hybrid,test,a word that means the same as another,synonym,
-gloss,hybrid,test,a sudden short burst of wind,blast|gust|puff|squall,37
+gloss,hybrid,test,a sudden short burst of wind,blast|gust|puff|squall,88
 gloss,hybrid,test,a green spot with water in the middle of a desert,oasis,2
-gloss,hybrid,test,a narrow track through the woods,footpath|path|track|trail,33
+gloss,hybrid,test,a narrow track through the woods,footpath|path|track|trail,
 gloss,hybrid,test,a large shed where aircraft are stored,hangar,2
 gloss,hybrid,test,a vessel that travels underwater,sub|submarine,
 gloss,hybrid,test,you cannot see through it,opaque,
-gloss,hybrid,test,a sharp pain in the chest caused by the heart,angina,2
+gloss,hybrid,test,a sharp pain in the chest caused by the heart,angina,1
 gloss,hybrid,test,a bird that hunts at night,owl,
 gloss,hybrid,test,refusing to change your mind,bullheaded|headstrong|inflexible|intransigent|obstinate|pigheaded|stubborn,
-gloss,hybrid,test,a device for measuring how hot something is,thermometer,4
+gloss,hybrid,test,a device for measuring how hot something is,thermometer,5
 gloss,hybrid,test,someone who always expects good things,optimist,
-gloss,hybrid,test,a huge dry sandy area with hardly any rain,desert,
-gloss,hybrid,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,10
+gloss,hybrid,test,a huge dry sandy area with hardly any rain,desert,46
+gloss,hybrid,test,to wander with no goal,drift|meander|ramble|roam|rove|stray|wander,25
 gloss,hybrid,test,a person who fixes leaking taps and pipes,plumber,
 gloss,hybrid,test,fear of heights,acrophobia,1
-gloss,hybrid,test,a person who flies airplanes,airman|aviator|flier|pilot,8
+gloss,hybrid,test,a person who flies airplanes,airman|aviator|flier|pilot,13
 gloss,hybrid,test,to chop into tiny bits,chop|dice|mince|shred,1
-gloss,hybrid,test,a document that says who gets your belongings after you die,testament|will,8
-gloss,hybrid,test,an unmarried man,bachelor,70
-gloss,hybrid,test,a sport where two people fight with thin swords,fencing,16
+gloss,hybrid,test,a document that says who gets your belongings after you die,testament|will,7
+gloss,hybrid,test,an unmarried man,bachelor,91
+gloss,hybrid,test,a sport where two people fight with thin swords,fencing,33
 gloss,hybrid,test,to walk long distances in the countryside for pleasure,hike|ramble|trek,1
-gloss,hybrid,test,government by the people,democracy,34
-gloss,hybrid,test,a feeling of great fear,dread|fright|horror|panic|terror,24
-gloss,hybrid,test,someone who takes pictures with a camera as a job,cameraman|photographer,20
+gloss,hybrid,test,government by the people,democracy,76
+gloss,hybrid,test,a feeling of great fear,dread|fright|horror|panic|terror,
+gloss,hybrid,test,someone who takes pictures with a camera as a job,cameraman|photographer,27
 gloss,hybrid,test,to keep trying even when it is hard,persevere|persist,
-gloss,hybrid,test,a baby cat,kitten|kitty,16
-gloss,hybrid,test,a short funny story,anecdote|gag|jest|joke,14
-gloss,hybrid,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,96
+gloss,hybrid,test,a baby cat,kitten|kitty,14
+gloss,hybrid,test,a short funny story,anecdote|gag|jest|joke,12
+gloss,hybrid,test,someone who will not stop chatting,chatterbox|garrulous|loquacious|talkative|talker,22
 gloss,hybrid,test,someone who hates spending money,miser|niggard|scrooge|skinflint|tightwad,
 gloss,hybrid,test,to run away secretly to marry,elope,1
-gloss,hybrid,test,a place where books are lent out,library,10
-gloss,hybrid,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,
+gloss,hybrid,test,a place where books are lent out,library,13
+gloss,hybrid,test,a doctor who treats children,paediatrician|pediatrician|pediatrist,69
 gloss,hybrid,test,a wise and respected teacher,guru|master|mentor|sage,11
-gloss,hybrid,test,a slow reptile with a hard shell,tortoise|turtle,10
+gloss,hybrid,test,a slow reptile with a hard shell,tortoise|turtle,73
 gloss,hybrid,test,a big group of fish swimming together,school|shoal,1
-gloss,hybrid,test,someone who writes books,author|novelist|writer,18
-gloss,hybrid,test,a very hard clear precious gemstone,diamond,23
+gloss,hybrid,test,someone who writes books,author|novelist|writer,12
+gloss,hybrid,test,a very hard clear precious gemstone,diamond,10
 gloss,hybrid,test,getting better after an illness,convalescence|healing|recovery|recuperation,
 gloss,hybrid,test,the study of ancient remains and tools of past people,archaeology|archeology,
-gloss,hybrid,test,someone who cuts hair,barber|hairdresser,28
+gloss,hybrid,test,someone who cuts hair,barber|hairdresser,24
 gloss,hybrid,test,an instrument for viewing very tiny things,microscope,
 gloss,hybrid,test,lasting only a very short time,brief|ephemeral|fleeting|momentary|transient,2
 gloss,hybrid,test,wanting what another person has,covetousness|envious|envy|jealous|jealousy,
-gloss,hybrid,test,to look at something very quickly,glance|glimpse|peek|peep,41
-gloss,hybrid,test,so hungry you could eat anything,famished|ravenous|starved|starving,7
-gloss,hybrid,test,fear of being trapped in small spaces,claustrophobia,6
-gloss,hybrid,test,a word formed from the first letters of a phrase,acronym,2
+gloss,hybrid,test,to look at something very quickly,glance|glimpse|peek|peep,63
+gloss,hybrid,test,so hungry you could eat anything,famished|ravenous|starved|starving,8
+gloss,hybrid,test,fear of being trapped in small spaces,claustrophobia,22
+gloss,hybrid,test,a word formed from the first letters of a phrase,acronym,1
 gloss,hybrid,test,the belief that there is no god,atheism|disbelief,1
 gloss+related,tfidf,dev,the scientific study of how the body works,anatomy|biology|physiology,
 gloss+related,tfidf,dev,a long poem about the deeds of a hero,epic|epos|saga,1

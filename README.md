@@ -23,10 +23,12 @@ All code is plain functions; there are no classes.
 pip install -r requirements.txt
 
 python search.py "fear of heights"                       # command line
+python search.py "fear of heights" --pos noun            # filter by part of speech
 python search.py "the meal you eat around noon" --explain  # shows WHY each word matched
-streamlit run app.py                                     # web app (has a TF-IDF vs embeddings view)
+python search.py -i                                      # interactive search shell (loads once, instant queries)
+streamlit run app.py                                     # web app (search, side-by-side comparison & benchmark dashboard)
 python evaluate.py                                       # reproduces every number below (1-3 min)
-pytest -q                                                # 13 tests
+pytest -q                                                # 22 tests
 ```
 
 First run downloads WordNet (via NLTK) and GloVe-100d (~130 MB from the gensim-data GitHub

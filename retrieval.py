@@ -168,12 +168,13 @@ def reciprocal_rank_fusion(rankings, weights):
 
     Ranks (not raw scores) are combined because TF-IDF and GloVe cosines live on
     different scales: 0.4 means "good" for one and "poor" for the other.
+    Ties are broken deterministically by doc_id.
     """
     fused = {}
     for ranking, weight in zip(rankings, weights):
         for rank, doc_id in enumerate(ranking, start=1):
             fused[doc_id] = fused.get(doc_id, 0.0) + weight / (RRF_K + rank)
-    return sorted(fused.items(), key=lambda item: -item[1])
+    return sorted(fused.items(), key=lambda item: (-item[1], item[0]))
 
 
 def ranked_ids(index, tokens, method, top_n=1000):
@@ -198,8 +199,17 @@ def rank_meanings(index, tokens, method, weights=DEFAULT_WEIGHTS, top_n=1000):
 # --------------------------------------------------------------------------- #
 # From meanings to words
 # --------------------------------------------------------------------------- #
-def search(index, query, method="hybrid", k=10, weights=DEFAULT_WEIGHTS):
-    """Main entry point: description in, list of candidate words out."""
+def search(index, query, method="hybrid", k=10, weights=DEFAULT_WEIGHTS, pos=None):
+    """Main entry point: description in, list of candidate words out.
+
+    Parameters:
+        index: precomputed index from build_index()
+        query: description string (e.g. "fear of heights")
+        method: one of "hybrid", "glove_idf", "glove_avg", "tfidf", "headword"
+        k: number of candidate words to return
+        weights: 3-tuple of weights for hybrid fusion (tfidf, glove_idf, headword)
+        pos: optional part-of-speech filter ('noun', 'verb', 'adj', 'adv')
+    """
     tokens = preprocess(query)
     # A reverse dictionary should never answer with a word you already typed.
     banned = set(raw_words(query)) | set(tokens)
@@ -207,6 +217,8 @@ def search(index, query, method="hybrid", k=10, weights=DEFAULT_WEIGHTS):
     results, seen = [], set()
     for doc_id, score in rank_meanings(index, tokens, method, weights):
         doc = index["docs"][doc_id]
+        if pos and doc["pos"] != pos:
+            continue
         for word in doc["words"]:
             if word in banned or word in seen:
                 continue
